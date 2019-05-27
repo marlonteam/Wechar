@@ -1,0 +1,1857 @@
+2019-05-16 00:17:09.563 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 12652 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 00:17:09.571 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 00:17:09.623 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 00:17:09.623 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 00:17:10.950 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 00:17:10.970 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-05-16 00:17:11.673 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c34fbac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 00:17:12.355 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 00:17:12.376 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 00:17:12.376 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 00:17:12.476 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 00:17:12.476 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2845 ms
+2019-05-16 00:17:12.604 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 00:17:12.697 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 00:17:13.390 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 00:17:13.560 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 00:17:13.568 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 00:17:13.671 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 00:17:13.771 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 00:17:14.281 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 00:17:14.301 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 00:17:14.484 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 00:17:14.514 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 00:17:14.765 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 00:17:14.765 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 5.715 seconds (JVM running for 6.92)
+2019-05-16 21:45:15.520 [lol housekeeper] WARN 
+				com.zaxxer.hikari.pool.HikariPool-lol - Thread starvation or clock leap detected (housekeeper delta=21h21m8s683ms460µs400ns).
+2019-05-16 21:55:14.575 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 16416 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 21:55:14.576 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 21:55:14.622 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 21:55:14.622 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 21:55:15.846 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 21:55:15.940 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
+2019-05-16 21:55:16.454 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a46127] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 21:55:17.921 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 21:55:17.968 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 21:55:17.968 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 21:55:18.077 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 21:55:18.077 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3455 ms
+2019-05-16 21:55:18.265 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 21:55:18.515 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 21:55:18.562 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 21:55:18.686 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 21:55:18.686 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 21:55:18.843 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 21:55:18.983 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 21:55:19.655 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 21:55:19.671 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 21:55:19.967 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 21:55:20.577 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 21:55:20.858 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 21:55:20.873 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 21:55:20.873 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 21:55:20.952 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 21:55:20.952 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.838 seconds (JVM running for 9.166)
+2019-05-16 21:57:00.679 [http-nio-8081-exec-10] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 21:57:00.680 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 21:57:00.690 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 10 ms
+2019-05-16 21:59:09.198 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 9400 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 21:59:09.198 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 21:59:09.260 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 21:59:09.260 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 21:59:11.354 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 21:59:11.432 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
+2019-05-16 21:59:11.869 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2da6f10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 21:59:11.994 [restartedMain] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+2019-05-16 21:59:11.994 [restartedMain] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-16 21:59:12.010 [restartedMain] ERROR
+				o.s.boot.SpringApplication-Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.mazhe.WcharApplication.main(WcharApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 13 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:135)
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:123)
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:316)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:55)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:35)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$null$0(LambdaSafe.java:302)
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:162)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:301)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:300)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:61)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 21 common frames omitted
+2019-05-16 21:59:35.736 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 10880 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 21:59:35.736 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 21:59:35.830 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 21:59:35.846 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 21:59:37.845 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 21:59:37.939 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 94ms. Found 1 repository interfaces.
+2019-05-16 21:59:38.345 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1e90e1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 21:59:38.501 [restartedMain] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+2019-05-16 21:59:38.501 [restartedMain] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-16 21:59:38.517 [restartedMain] ERROR
+				o.s.boot.SpringApplication-Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.mazhe.WcharApplication.main(WcharApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 13 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:135)
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:123)
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:316)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:55)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:35)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$null$0(LambdaSafe.java:302)
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:162)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:301)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:300)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:61)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 21 common frames omitted
+2019-05-16 22:00:20.598 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 2872 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:00:20.614 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:00:20.692 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:00:20.692 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:00:23.038 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:00:23.118 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2019-05-16 22:00:23.608 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5828c30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:00:23.766 [restartedMain] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+2019-05-16 22:00:23.774 [restartedMain] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-16 22:00:23.782 [restartedMain] ERROR
+				o.s.boot.SpringApplication-Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.mazhe.WcharApplication.main(WcharApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 13 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:135)
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:123)
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:316)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:55)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:35)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$null$0(LambdaSafe.java:302)
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:162)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:301)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:300)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:61)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 21 common frames omitted
+2019-05-16 22:01:23.173 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 15200 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:01:23.173 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:01:23.251 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:01:23.251 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:01:25.219 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:01:25.282 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-05-16 22:01:25.703 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d416bf7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:01:26.953 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:01:26.969 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:01:26.969 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:01:27.078 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:01:27.078 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3827 ms
+2019-05-16 22:01:27.234 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:01:27.453 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:01:27.500 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:01:27.547 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:01:27.547 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:01:27.640 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:01:27.750 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:01:28.297 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:01:28.312 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:01:28.515 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:01:28.921 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:01:29.156 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:01:29.171 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:01:29.171 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:01:29.218 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:01:29.218 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.53 seconds (JVM running for 7.503)
+2019-05-16 22:01:48.259 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 17376 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:01:48.259 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:01:48.337 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:01:48.337 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:01:49.337 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:01:49.399 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-05-16 22:01:49.712 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3896896] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:01:51.024 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:01:51.055 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:01:51.055 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:01:51.165 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:01:51.165 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2828 ms
+2019-05-16 22:01:51.305 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:01:51.961 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:01:52.008 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:01:52.055 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:01:52.055 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:01:52.149 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:01:52.274 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:01:52.820 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:01:52.852 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:01:53.070 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:01:53.477 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:01:53.711 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:01:53.711 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:01:53.726 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:01:53.773 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:01:53.773 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 5.92 seconds (JVM running for 8.53)
+2019-05-16 22:02:14.002 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 16536 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:02:14.050 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:02:14.134 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:02:14.135 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:02:16.432 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:02:16.496 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2019-05-16 22:02:16.936 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d40af7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:02:17.702 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:02:17.728 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:02:17.729 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:02:17.854 [restartedMain] INFO 
+				o.a.c.c.C.[.[localhost].[/api]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:02:17.854 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3719 ms
+2019-05-16 22:02:18.031 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:02:18.279 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:02:18.316 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:02:18.365 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:02:18.366 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:02:18.474 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:02:18.598 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:02:19.172 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:02:19.203 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:02:19.467 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:02:19.926 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:02:20.171 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:02:20.186 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:02:20.202 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:02:20.249 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/api'
+2019-05-16 22:02:20.249 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.872 seconds (JVM running for 8.196)
+2019-05-16 22:02:27.116 [http-nio-8081-exec-3] INFO 
+				o.a.c.c.C.[.[localhost].[/api]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:02:27.117 [http-nio-8081-exec-3] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:02:27.124 [http-nio-8081-exec-3] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-05-16 22:02:52.731 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 16960 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:02:52.731 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:02:52.793 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:02:52.793 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:02:55.090 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:02:55.168 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-05-16 22:02:55.543 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f87986f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:02:56.339 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:02:56.371 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:02:56.371 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:02:56.511 [restartedMain] INFO 
+				o.a.c.c.C.[.[localhost].[/api]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:02:56.511 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3718 ms
+2019-05-16 22:02:56.668 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:02:56.761 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:02:56.980 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:02:57.042 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:02:57.042 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:02:57.199 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:02:57.324 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:02:57.933 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:02:57.948 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:02:58.183 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:02:58.667 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:02:58.964 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:02:58.979 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:02:58.995 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:02:59.042 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/api'
+2019-05-16 22:02:59.042 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.858 seconds (JVM running for 8.109)
+2019-05-16 22:03:03.976 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/api]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:03:03.976 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:03:03.984 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-05-16 22:20:30.085 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 11336 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:20:30.086 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:20:30.180 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:20:30.180 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:20:32.383 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:20:32.459 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2019-05-16 22:20:32.909 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73216f3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:20:34.851 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:20:34.883 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:20:34.883 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:20:35.032 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:20:35.032 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4852 ms
+2019-05-16 22:20:35.220 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:20:35.481 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:20:35.537 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:20:35.598 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:20:35.599 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:20:35.787 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:20:35.927 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:20:36.646 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:20:36.663 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:20:36.888 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:20:37.380 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:20:37.713 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:20:37.733 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:20:37.748 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:20:37.802 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:20:37.805 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 8.206 seconds (JVM running for 9.417)
+2019-05-16 22:21:42.017 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 3952 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:21:42.019 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:21:42.058 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:21:42.058 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:21:43.103 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:21:43.183 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 72ms. Found 1 repository interfaces.
+2019-05-16 22:21:43.558 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$414a9e71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:21:44.912 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:21:44.937 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:21:44.937 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:21:45.063 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:21:45.063 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3005 ms
+2019-05-16 22:21:45.212 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:21:45.421 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:21:45.461 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:21:45.509 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:21:45.511 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:21:45.630 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:21:45.744 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:21:46.258 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:21:46.274 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:21:46.516 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:21:46.931 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:21:47.175 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:21:47.189 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:21:47.199 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:21:47.237 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:21:47.240 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 5.66 seconds (JVM running for 8.096)
+2019-05-16 22:23:32.473 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 13616 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:23:32.475 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:23:32.595 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:23:32.597 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:23:34.625 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:23:34.709 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 75ms. Found 1 repository interfaces.
+2019-05-16 22:23:35.115 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df128a57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:23:36.734 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:23:36.784 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:23:36.785 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:23:36.945 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:23:36.945 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4347 ms
+2019-05-16 22:23:37.103 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:23:37.342 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:23:37.386 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:23:37.442 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:23:37.445 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:23:37.567 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:23:37.693 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:23:38.368 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:23:38.384 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:23:38.664 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:23:39.155 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:23:39.427 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:23:39.446 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:23:39.463 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:23:39.511 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:23:39.514 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.651 seconds (JVM running for 8.777)
+2019-05-16 22:23:40.274 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:23:40.275 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:23:40.282 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-05-16 22:24:38.698 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 17308 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:24:38.700 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:24:38.759 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:24:38.759 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:24:39.867 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:24:39.936 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-05-16 22:24:40.280 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e73b6227] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:24:41.655 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:24:41.695 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:24:41.695 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:24:41.804 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:24:41.804 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3045 ms
+2019-05-16 22:24:41.953 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:24:42.148 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:24:42.186 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:24:42.232 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:24:42.234 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:24:42.348 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:24:42.463 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:24:43.054 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:24:43.071 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:24:43.323 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:24:43.761 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:24:43.997 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:24:44.013 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:24:44.025 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:24:44.069 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:24:44.072 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 5.788 seconds (JVM running for 8.094)
+2019-05-16 22:24:52.538 [http-nio-8081-exec-10] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:24:52.538 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:24:52.546 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-05-16 22:25:18.863 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 16552 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:25:18.870 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:25:18.945 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:25:18.945 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:25:21.348 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:25:21.455 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 98ms. Found 1 repository interfaces.
+2019-05-16 22:25:21.842 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14214544] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:25:23.410 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:25:23.452 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:25:23.452 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:25:23.599 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:25:23.599 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4654 ms
+2019-05-16 22:25:23.743 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:25:24.086 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:25:24.123 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:25:24.169 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:25:24.171 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:25:24.288 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:25:24.400 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:25:24.901 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:25:24.917 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:25:25.174 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:25:25.599 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:25:25.816 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:25:25.833 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:25:25.847 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:25:25.897 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:25:25.900 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.661 seconds (JVM running for 8.734)
+2019-05-16 22:25:38.915 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:25:38.916 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:25:38.924 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-05-16 22:27:36.033 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 14204 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:27:36.035 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:27:36.123 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:27:36.124 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:27:38.174 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:27:38.257 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 75ms. Found 1 repository interfaces.
+2019-05-16 22:27:38.741 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7509c52f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:27:39.627 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:27:39.665 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:27:39.666 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:27:39.815 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:27:39.815 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3691 ms
+2019-05-16 22:27:39.969 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:27:40.242 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:27:40.284 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:27:40.358 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:27:40.360 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:27:40.515 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:27:40.645 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:27:41.348 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:27:41.364 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:27:41.630 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:27:42.158 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:27:42.466 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:27:42.486 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:27:42.500 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:27:42.547 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:27:42.549 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.32 seconds (JVM running for 8.549)
+2019-05-16 22:27:43.565 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:27:43.565 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:27:43.575 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 10 ms
+2019-05-16 22:28:34.893 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 8528 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:28:34.895 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:28:34.940 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:28:34.940 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:28:35.991 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:28:36.107 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2019-05-16 22:28:36.585 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2322476] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:28:37.671 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:28:37.698 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:28:37.699 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:28:37.849 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:28:37.849 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2909 ms
+2019-05-16 22:28:37.989 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:28:38.333 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:28:38.374 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:28:38.447 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:28:38.449 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:28:38.573 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:28:38.706 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:28:39.664 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:28:39.683 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:28:39.915 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:28:40.363 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:28:40.617 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:28:40.631 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:28:40.640 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:28:40.778 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:28:40.780 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.323 seconds (JVM running for 8.891)
+2019-05-16 22:29:07.138 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:29:07.138 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:29:07.145 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2019-05-16 22:29:16.724 [http-nio-8081-exec-8] INFO 
+				com.mazhe.controller.OrderController-addOrder - start
+2019-05-16 22:30:28.488 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 1140 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:30:28.512 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:30:28.596 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:30:28.596 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:30:30.892 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:30:30.982 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces.
+2019-05-16 22:30:31.447 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe16e36e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:30:32.193 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:30:32.221 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:30:32.222 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:30:32.361 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:30:32.362 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3765 ms
+2019-05-16 22:30:32.535 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:30:32.774 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:30:32.824 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:30:32.876 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:30:32.878 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:30:32.980 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:30:33.106 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:30:33.739 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:30:33.755 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:30:34.007 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:30:34.546 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:30:34.802 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:30:34.826 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:30:34.841 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:30:35.023 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:30:35.025 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.219 seconds (JVM running for 8.282)
+2019-05-16 22:30:40.248 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:30:40.249 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:30:40.259 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 10 ms
+2019-05-16 22:30:58.728 [http-nio-8081-exec-7] INFO 
+				com.mazhe.controller.OrderController-addOrder - start
+2019-05-16 22:31:34.725 [http-nio-8081-exec-8] INFO 
+				com.mazhe.controller.OrderController-addOrder - start{"body":"string","data":{},"level":"string","title":"string"}
+2019-05-16 22:37:05.226 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 14588 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:37:05.229 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:37:05.274 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:37:05.276 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:37:07.278 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:37:07.419 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 117ms. Found 1 repository interfaces.
+2019-05-16 22:37:07.800 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$412aeb93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:37:09.290 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:37:09.323 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:37:09.324 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:37:09.470 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:37:09.470 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4194 ms
+2019-05-16 22:37:09.650 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:37:09.896 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:37:09.938 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:37:09.989 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:37:09.990 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:37:10.121 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:37:10.259 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:37:10.840 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:37:10.856 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:37:11.103 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:37:11.353 [restartedMain] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wecharController' method 
+public java.lang.Object com.mazhe.controller.WecharController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage)
+to {POST /api/order/test}: There is already 'orderController' bean method
+public java.lang.Object com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage) mapped.
+2019-05-16 22:37:11.354 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:37:11.356 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown initiated...
+2019-05-16 22:37:11.362 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown completed.
+2019-05-16 22:37:11.364 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Stopping service [Tomcat]
+2019-05-16 22:37:11.378 [restartedMain] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-16 22:37:11.408 [restartedMain] ERROR
+				o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wecharController' method 
+public java.lang.Object com.mazhe.controller.WecharController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage)
+to {POST /api/order/test}: There is already 'orderController' bean method
+public java.lang.Object com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.mazhe.WcharApplication.main(WcharApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/Administrator/.m2/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wecharController' method 
+public java.lang.Object com.mazhe.controller.WecharController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage)
+to {POST /api/order/test}: There is already 'orderController' bean method
+public java.lang.Object com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1463)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1427)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wecharController' method 
+public java.lang.Object com.mazhe.controller.WecharController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage)
+to {POST /api/order/test}: There is already 'orderController' bean method
+public java.lang.Object com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1463)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1427)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1205)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'wecharController' method 
+public java.lang.Object com.mazhe.controller.WecharController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage)
+to {POST /api/order/test}: There is already 'orderController' bean method
+public java.lang.Object com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.BaseMessage) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 55 common frames omitted
+2019-05-16 22:38:01.178 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 5248 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 22:38:01.182 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 22:38:01.322 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 22:38:01.324 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 22:38:03.802 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 22:38:03.907 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2019-05-16 22:38:04.428 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$21c58159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 22:38:05.148 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 22:38:05.172 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 22:38:05.173 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 22:38:05.301 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 22:38:05.301 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3976 ms
+2019-05-16 22:38:05.460 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 22:38:05.732 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 22:38:05.771 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 22:38:05.818 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 22:38:05.820 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 22:38:05.915 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 22:38:06.053 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 22:38:06.697 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 22:38:06.712 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 22:38:06.960 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 22:38:07.472 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 22:38:07.736 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 22:38:07.770 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 22:38:07.784 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 22:38:07.963 [restartedMain] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: callUsingPOST_1
+2019-05-16 22:38:07.967 [restartedMain] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 22:38:08.007 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 22:38:08.009 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.527 seconds (JVM running for 8.798)
+2019-05-16 22:38:09.897 [http-nio-8081-exec-10] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 22:38:09.897 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 22:38:09.907 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2019-05-16 23:07:38.958 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 7164 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:07:39.038 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:07:39.112 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:07:39.112 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:07:40.109 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:07:40.177 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 61ms. Found 1 repository interfaces.
+2019-05-16 23:07:40.585 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fe87ddd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:07:41.921 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:07:41.944 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:07:41.944 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:07:42.105 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:07:42.105 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2993 ms
+2019-05-16 23:07:42.251 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:07:42.519 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:07:42.557 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:07:42.605 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:07:42.607 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:07:42.703 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:07:42.822 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:07:43.342 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:07:43.358 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:07:43.797 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:07:43.916 [restartedMain] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'createRestApi' defined in class path resource [com/mazhe/config/Swagger2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'createRestApi' threw exception; nested exception is java.lang.ClassCastException: springfox.documentation.service.ApiKey cannot be cast to java.util.Collection
+2019-05-16 23:07:43.916 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:07:43.920 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown initiated...
+2019-05-16 23:07:43.928 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown completed.
+2019-05-16 23:07:43.930 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Stopping service [Tomcat]
+2019-05-16 23:07:43.944 [restartedMain] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-16 23:07:43.954 [restartedMain] ERROR
+				o.s.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'createRestApi' defined in class path resource [com/mazhe/config/Swagger2.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'createRestApi' threw exception; nested exception is java.lang.ClassCastException: springfox.documentation.service.ApiKey cannot be cast to java.util.Collection
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.mazhe.WcharApplication.main(WcharApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'createRestApi' threw exception; nested exception is java.lang.ClassCastException: springfox.documentation.service.ApiKey cannot be cast to java.util.Collection
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 24 common frames omitted
+Caused by: java.lang.ClassCastException: springfox.documentation.service.ApiKey cannot be cast to java.util.Collection
+	at com.mazhe.config.Swagger2.securitySchemes(Swagger2.java:44)
+	at com.mazhe.config.Swagger2.createRestApi(Swagger2.java:38)
+	at com.mazhe.config.Swagger2$$EnhancerBySpringCGLIB$$e288d23e.CGLIB$createRestApi$0(<generated>)
+	at com.mazhe.config.Swagger2$$EnhancerBySpringCGLIB$$e288d23e$$FastClassBySpringCGLIB$$ab86934a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.mazhe.config.Swagger2$$EnhancerBySpringCGLIB$$e288d23e.createRestApi(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+2019-05-16 23:15:08.859 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 16904 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:15:08.861 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:15:08.929 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:15:08.930 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:15:11.057 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:15:11.154 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 90ms. Found 1 repository interfaces.
+2019-05-16 23:15:11.585 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d31f02e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:15:12.438 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:15:12.459 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:15:12.459 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:15:12.598 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:15:12.598 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3668 ms
+2019-05-16 23:15:12.756 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:15:12.984 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:15:13.028 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:15:13.076 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:15:13.078 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:15:13.214 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:15:13.329 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:15:13.851 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:15:13.867 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:15:14.367 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:15:14.612 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:15:14.889 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:15:14.903 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:15:14.915 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:15:14.952 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 23:15:14.955 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.675 seconds (JVM running for 7.778)
+2019-05-16 23:15:26.963 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 23:15:26.964 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 23:15:26.970 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 6 ms
+2019-05-16 23:18:01.567 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 11608 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:18:01.569 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:18:01.617 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:18:01.618 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:18:02.700 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:18:02.765 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 57ms. Found 1 repository interfaces.
+2019-05-16 23:18:03.125 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4eb5cfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:18:03.798 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:18:03.824 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:18:03.825 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:18:04.005 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:18:04.006 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2388 ms
+2019-05-16 23:18:04.205 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:18:05.583 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:18:05.623 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:18:05.681 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:18:05.683 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:18:05.807 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:18:05.964 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:18:06.592 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:18:06.610 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:18:07.064 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:18:07.337 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:18:07.659 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:18:07.674 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:18:07.686 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:18:07.727 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 23:18:07.730 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.618 seconds (JVM running for 10.153)
+2019-05-16 23:18:35.120 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 23:18:35.121 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 23:18:35.130 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-05-16 23:20:15.141 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 11576 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:20:15.145 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:20:15.315 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:20:15.315 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:20:17.203 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:20:17.268 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-05-16 23:20:17.636 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a93ef04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:20:18.402 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:20:18.438 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:20:18.439 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:20:18.589 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:20:18.590 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 3275 ms
+2019-05-16 23:20:18.787 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:20:18.889 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:20:19.474 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:20:19.522 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:20:19.524 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:20:19.621 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:20:19.733 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:20:20.277 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:20:20.294 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:20:20.691 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:20:20.919 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:20:21.137 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:20:21.151 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:20:21.161 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:20:21.362 [restartedMain] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 23:20:21.403 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 23:20:21.405 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 6.776 seconds (JVM running for 7.845)
+2019-05-16 23:20:27.387 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 23:20:27.388 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 23:20:27.396 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-05-16 23:20:58.218 [http-nio-8081-exec-5] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-16 23:20:58.270 [http-nio-8081-exec-5] INFO 
+				o.h.h.i.QueryTranslatorFactoryInitiator-HHH000397: Using ASTQueryTranslatorFactory
+2019-05-16 23:25:03.788 [http-nio-8081-exec-10] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-16 23:27:21.562 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 15596 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:27:21.564 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:27:21.616 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:27:21.617 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:27:23.727 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:27:23.813 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 74ms. Found 1 repository interfaces.
+2019-05-16 23:27:24.195 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4775eea4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:27:25.815 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:27:25.846 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:27:25.847 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:27:25.981 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:27:25.982 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 4364 ms
+2019-05-16 23:27:26.164 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:27:26.439 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:27:26.485 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:27:26.539 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:27:26.542 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:27:26.707 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:27:26.854 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:27:27.504 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:27:27.523 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:27:27.919 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:27:28.137 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:27:28.354 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:27:28.368 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:27:28.403 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:27:28.515 [restartedMain] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 23:27:28.553 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 23:27:28.555 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 7.495 seconds (JVM running for 8.552)
+2019-05-16 23:27:39.322 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 23:27:39.322 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 23:27:39.330 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 7 ms
+2019-05-16 23:27:58.974 [http-nio-8081-exec-9] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-16 23:27:59.012 [http-nio-8081-exec-9] INFO 
+				o.h.h.i.QueryTranslatorFactoryInitiator-HHH000397: Using ASTQueryTranslatorFactory
+2019-05-16 23:31:43.223 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mazhe.WcharApplicationTests], using SpringBootContextLoader
+2019-05-16 23:31:43.231 [main] INFO 
+				o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.mazhe.WcharApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-16 23:31:43.237 [main] INFO 
+				o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.mazhe.WcharApplicationTests]: WcharApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-16 23:31:43.506 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.mazhe.WcharApplication for test class com.mazhe.WcharApplicationTests
+2019-05-16 23:31:43.655 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-16 23:31:43.673 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ab778a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4e3958e7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@77f80c04, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1dac5ef, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5c90e579, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58ea606c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f45df59, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38e79ae3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@63070bab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@68e5eea7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@291b4bf5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2d2ffcb7]
+2019-05-16 23:31:44.657 [main] INFO 
+				com.mazhe.WcharApplicationTests-Starting WcharApplicationTests on 75FSNYB25U5X91C with PID 11204 (started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:31:44.660 [main] INFO 
+				com.mazhe.WcharApplicationTests-The following profiles are active: uat
+2019-05-16 23:31:47.631 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:31:47.795 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 130ms. Found 1 repository interfaces.
+2019-05-16 23:31:49.659 [main] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c2818d30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:31:50.252 [main] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:31:50.586 [main] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:31:50.682 [main] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:31:50.883 [main] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:31:50.885 [main] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:31:51.538 [main] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:31:52.252 [main] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:31:53.207 [main] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:31:54.953 [main] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:31:56.687 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:31:57.939 [main] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:31:57.965 [main] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:31:58.038 [main] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:31:58.389 [main] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 23:31:58.417 [main] INFO 
+				com.mazhe.WcharApplicationTests-Started WcharApplicationTests in 14.636 seconds (JVM running for 18.476)
+2019-05-16 23:31:59.069 [Thread-3] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:31:59.074 [Thread-3] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:31:59.081 [Thread-3] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown initiated...
+2019-05-16 23:31:59.112 [Thread-3] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown completed.
+2019-05-16 23:37:18.254 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mazhe.WcharApplicationTests], using SpringBootContextLoader
+2019-05-16 23:37:18.263 [main] INFO 
+				o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.mazhe.WcharApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-16 23:37:18.268 [main] INFO 
+				o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.mazhe.WcharApplicationTests]: WcharApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-16 23:37:18.485 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.mazhe.WcharApplication for test class com.mazhe.WcharApplicationTests
+2019-05-16 23:37:18.652 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-05-16 23:37:18.681 [main] INFO 
+				o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@272ed83b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41fecb8b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@120f102b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@625732, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51dcb805, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66498326, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@cad498c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6454ec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2accdbb5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b62d79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6631f5ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ace1ed4]
+2019-05-16 23:37:19.532 [main] INFO 
+				com.mazhe.WcharApplicationTests-Starting WcharApplicationTests on 75FSNYB25U5X91C with PID 11548 (started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:37:19.533 [main] INFO 
+				com.mazhe.WcharApplicationTests-The following profiles are active: uat
+2019-05-16 23:37:22.587 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:37:22.764 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 122ms. Found 1 repository interfaces.
+2019-05-16 23:37:23.925 [main] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4be82b3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:37:24.480 [main] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:37:24.833 [main] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:37:24.908 [main] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:37:24.997 [main] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:37:24.999 [main] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:37:25.203 [main] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:37:25.820 [main] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:37:26.931 [main] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:37:28.353 [main] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:37:29.868 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:37:31.200 [main] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:37:31.225 [main] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:37:31.279 [main] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:37:31.533 [main] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 23:37:31.559 [main] INFO 
+				com.mazhe.WcharApplicationTests-Started WcharApplicationTests in 12.75 seconds (JVM running for 14.297)
+2019-05-16 23:37:31.991 [Thread-3] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:37:31.994 [Thread-3] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:37:31.997 [Thread-3] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown initiated...
+2019-05-16 23:37:32.034 [Thread-3] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Shutdown completed.
+2019-05-16 23:45:12.015 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 15520 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-16 23:45:12.016 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-16 23:45:12.079 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-16 23:45:12.079 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-16 23:45:13.402 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-16 23:45:13.493 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 83ms. Found 1 repository interfaces.
+2019-05-16 23:45:13.930 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9ade8bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-16 23:45:14.899 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-16 23:45:14.921 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-16 23:45:14.922 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-16 23:45:15.046 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2019-05-16 23:45:15.046 [restartedMain] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 2967 ms
+2019-05-16 23:45:15.180 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-16 23:45:15.397 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-16 23:45:15.436 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-16 23:45:15.481 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-16 23:45:15.483 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-16 23:45:15.575 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-16 23:45:15.687 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-16 23:45:16.199 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-16 23:45:16.214 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-16 23:45:16.626 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-16 23:45:16.902 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor-Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-16 23:45:17.200 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-16 23:45:17.213 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-16 23:45:17.223 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-16 23:45:17.330 [restartedMain] INFO 
+				s.d.s.w.r.o.CachingOperationNameGenerator-Generating unique operation named: checkStatusUsingGET_1
+2019-05-16 23:45:17.364 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path ''
+2019-05-16 23:45:17.367 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 5.786 seconds (JVM running for 8.764)
+2019-05-16 23:45:38.238 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-16 23:45:38.239 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2019-05-16 23:45:38.247 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-Completed initialization in 8 ms

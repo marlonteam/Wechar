@@ -1,0 +1,1258 @@
+2019-05-19 11:13:55.689 [lol housekeeper] WARN 
+				com.zaxxer.hikari.pool.HikariPool-lol - Thread starvation or clock leap detected (housekeeper delta=18h53m4s743ms758µs900ns).
+2019-05-19 13:52:11.176 [lol housekeeper] WARN 
+				com.zaxxer.hikari.pool.HikariPool-lol - Thread starvation or clock leap detected (housekeeper delta=2h22m45s333ms786µs500ns).
+2019-05-19 17:40:04.373 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 8388 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 17:40:04.377 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 17:40:04.831 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fb346d5: startup date [Sun May 19 17:40:04 CST 2019]; root of context hierarchy
+2019-05-19 17:40:08.793 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cae70602] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 17:40:11.899 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 17:40:11.949 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 17:40:11.949 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 17:40:11.961 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 17:40:12.210 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 17:40:12.210 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 7379 ms
+2019-05-19 17:40:12.350 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 17:40:12.353 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 17:40:12.366 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 17:40:12.366 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 17:40:12.366 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 17:40:12.792 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 17:40:12.995 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 17:40:13.088 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 17:40:13.364 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 17:40:13.514 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 17:40:13.519 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 17:40:13.679 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 17:40:13.967 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 17:40:15.030 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 17:40:16.384 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 17:40:16.515 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 17:40:16.518 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 17:40:16.521 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 17:40:16.523 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 17:40:16.524 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 17:40:16.524 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 17:40:16.528 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 17:40:16.547 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 17:40:16.547 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 17:40:16.574 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 17:40:16.579 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 17:40:17.142 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 17:40:17.403 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 17:40:17.969 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6fb346d5: startup date [Sun May 19 17:40:04 CST 2019]; root of context hierarchy
+2019-05-19 17:40:18.156 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 17:40:18.156 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 17:40:18.824 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 17:40:18.872 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 17:40:18.872 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 17:40:18.914 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 17:40:18.921 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 17:40:18.921 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 17:40:18.951 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 17:40:18.992 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 17:40:19.341 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 17:40:19.346 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 16.306 seconds (JVM running for 19.19)
+2019-05-19 17:41:18.568 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 17:41:18.568 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 17:41:18.619 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2019-05-19 17:42:06.333 [http-nio-8081-exec-8] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-19 17:42:22.331 [http-nio-8081-exec-9] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-19 17:42:22.359 [http-nio-8081-exec-9] INFO 
+				o.h.h.i.QueryTranslatorFactoryInitiator-HHH000397: Using ASTQueryTranslatorFactory
+2019-05-19 18:05:43.082 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 10664 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:05:43.086 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:05:43.296 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1795a6ad: startup date [Sun May 19 18:05:43 CST 2019]; root of context hierarchy
+2019-05-19 18:05:48.162 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d58526c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:05:49.469 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:05:49.512 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:05:49.516 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:05:49.522 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:05:49.746 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:05:49.746 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 6450 ms
+2019-05-19 18:05:49.906 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:05:49.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:05:49.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:05:49.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:05:49.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:05:50.280 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:05:50.445 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:05:50.534 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:05:50.818 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:05:50.962 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:05:50.962 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:05:51.020 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:05:51.239 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:05:52.039 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:05:53.813 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:05:53.969 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:05:53.975 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:05:53.976 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:05:53.980 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:05:53.983 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:05:53.983 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:05:53.983 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:05:53.983 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:05:53.997 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:05:53.998 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:05:53.998 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:05:54.006 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:05:54.013 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:05:54.364 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:05:54.518 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:05:54.916 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1795a6ad: startup date [Sun May 19 18:05:43 CST 2019]; root of context hierarchy
+2019-05-19 18:05:55.050 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:05:55.050 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:05:55.639 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:05:55.698 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:05:55.702 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:05:55.713 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:05:55.726 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:05:55.728 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:05:55.763 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:05:55.815 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:05:56.256 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:05:56.265 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 13.951 seconds (JVM running for 15.476)
+2019-05-19 18:06:13.794 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:06:13.794 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:06:13.835 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2019-05-19 18:08:17.144 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 10536 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:08:17.149 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:08:17.421 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43870300: startup date [Sun May 19 18:08:17 CST 2019]; root of context hierarchy
+2019-05-19 18:08:21.076 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a81db64a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:08:22.690 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:08:22.778 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:08:22.778 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:08:22.786 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:08:22.991 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:08:22.995 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 5574 ms
+2019-05-19 18:08:23.109 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:08:23.115 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:08:23.115 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:08:23.115 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:08:23.115 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:08:23.438 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:08:23.787 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:08:23.877 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:08:24.124 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:08:24.312 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:08:24.314 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:08:24.437 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:08:24.823 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:08:26.370 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:08:27.334 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:08:27.424 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:08:27.426 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:08:27.427 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:08:27.431 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:08:27.431 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:08:27.431 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:08:27.431 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:08:27.435 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:08:27.444 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:08:27.445 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:08:27.445 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:08:27.484 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:08:27.488 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:08:27.768 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:08:27.885 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:08:28.204 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43870300: startup date [Sun May 19 18:08:17 CST 2019]; root of context hierarchy
+2019-05-19 18:08:28.288 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:08:28.292 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:08:28.861 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:08:28.926 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:08:28.927 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:08:28.938 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:08:28.952 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:08:28.954 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:08:28.983 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:08:29.047 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:08:29.505 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:08:29.510 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 13.413 seconds (JVM running for 15.132)
+2019-05-19 18:08:53.267 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:08:53.268 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:08:53.302 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-05-19 18:09:20.939 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 12456 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:09:20.939 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:09:21.099 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5109242f: startup date [Sun May 19 18:09:21 CST 2019]; root of context hierarchy
+2019-05-19 18:09:25.808 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e9e49c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:09:27.543 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:09:27.575 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:09:27.576 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:09:27.583 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:09:27.730 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:09:27.734 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 6635 ms
+2019-05-19 18:09:27.938 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:09:27.944 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:09:27.944 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:09:27.944 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:09:27.944 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:09:28.233 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:09:28.445 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:09:28.532 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:09:28.806 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:09:28.932 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:09:28.933 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:09:28.988 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:09:29.202 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:09:29.843 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:09:31.606 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:09:31.759 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:09:31.766 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:09:31.766 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:09:31.770 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:09:31.771 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:09:31.772 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:09:31.772 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:09:31.773 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:09:31.783 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:09:31.784 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:09:31.784 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:09:31.789 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:09:31.791 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:09:32.099 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:09:32.227 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:09:32.611 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5109242f: startup date [Sun May 19 18:09:21 CST 2019]; root of context hierarchy
+2019-05-19 18:09:32.685 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:09:32.685 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:09:33.204 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:09:33.259 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:09:33.268 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:09:33.276 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:09:33.290 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:09:33.290 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:09:33.322 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:09:33.364 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:09:33.730 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:09:33.737 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 13.725 seconds (JVM running for 15.696)
+2019-05-19 18:09:34.658 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:09:34.658 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:09:34.707 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2019-05-19 18:10:36.355 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 13560 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:10:36.355 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:10:36.473 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10dbf0e7: startup date [Sun May 19 18:10:36 CST 2019]; root of context hierarchy
+2019-05-19 18:10:40.730 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81037ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:10:42.150 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:10:42.185 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:10:42.185 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:10:42.195 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:10:42.402 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:10:42.402 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 5929 ms
+2019-05-19 18:10:42.535 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:10:42.542 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:10:42.542 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:10:42.542 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:10:42.542 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:10:42.873 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:10:43.046 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:10:43.131 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:10:43.471 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:10:43.699 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:10:43.707 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:10:43.795 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:10:44.011 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:10:44.788 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:10:46.369 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:10:46.573 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:10:46.580 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:10:46.591 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:10:46.596 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:10:46.597 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:10:46.603 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:10:46.603 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:10:46.604 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:10:46.609 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:10:46.648 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:10:46.882 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:10:46.890 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:10:46.890 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:10:47.239 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:10:47.353 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:10:47.632 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10dbf0e7: startup date [Sun May 19 18:10:36 CST 2019]; root of context hierarchy
+2019-05-19 18:10:47.736 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:10:47.736 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:10:48.261 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:10:48.312 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:10:48.320 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:10:48.329 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:10:48.334 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:10:48.338 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:10:48.367 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:10:48.405 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:10:48.762 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:10:48.765 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 13.248 seconds (JVM running for 14.896)
+2019-05-19 18:10:48.933 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:10:48.933 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:10:48.970 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2019-05-19 18:12:52.877 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 14936 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:12:52.881 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:12:53.175 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@294536e3: startup date [Sun May 19 18:12:53 CST 2019]; root of context hierarchy
+2019-05-19 18:12:57.545 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$288b55c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:12:59.058 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:12:59.086 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:12:59.086 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:12:59.094 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:12:59.240 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:12:59.240 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 6066 ms
+2019-05-19 18:12:59.376 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:12:59.384 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:12:59.384 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:12:59.384 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:12:59.389 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:12:59.914 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:13:00.119 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:13:00.248 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:13:00.491 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:13:00.719 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:13:00.725 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:13:00.798 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:13:01.151 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:13:02.399 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:13:03.789 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:13:03.882 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:13:03.882 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:03.891 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:03.893 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:13:03.894 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:13:03.894 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:13:03.894 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:13:03.894 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:03.905 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:13:03.905 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:13:03.909 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:13:03.910 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:03.914 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:13:04.661 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:13:04.824 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:05.089 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@294536e3: startup date [Sun May 19 18:12:53 CST 2019]; root of context hierarchy
+2019-05-19 18:13:05.162 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:05.162 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:05.755 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:13:05.808 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:13:05.812 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:13:05.821 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:13:05.828 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:13:05.828 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:13:05.858 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:13:05.898 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:13:06.282 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:13:06.290 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 14.233 seconds (JVM running for 15.843)
+2019-05-19 18:13:22.776 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 12668 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:13:22.837 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:13:23.019 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4adce109: startup date [Sun May 19 18:13:23 CST 2019]; root of context hierarchy
+2019-05-19 18:13:26.565 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fb65b7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:13:27.816 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:13:27.856 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:13:27.856 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:13:27.863 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:13:28.055 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:13:28.055 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 5036 ms
+2019-05-19 18:13:28.186 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:13:28.188 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:13:28.193 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:13:28.193 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:13:28.193 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:13:28.429 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:13:28.574 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:13:28.636 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:13:28.935 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:13:29.133 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:13:29.138 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:13:29.258 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:13:29.545 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:13:30.469 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:13:31.429 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:13:31.554 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:13:31.559 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:31.559 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:31.564 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:13:31.564 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:13:31.565 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:31.565 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:13:31.565 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:13:31.572 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:13:31.572 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:13:31.572 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:13:31.578 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:13:31.578 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:13:31.817 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:13:31.925 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:32.160 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4adce109: startup date [Sun May 19 18:13:23 CST 2019]; root of context hierarchy
+2019-05-19 18:13:32.225 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:32.229 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:13:32.681 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:13:32.725 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:13:32.728 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:13:32.734 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:13:32.743 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:13:32.743 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:13:32.769 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:13:32.810 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:13:33.200 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:13:33.207 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 11.45 seconds (JVM running for 13.26)
+2019-05-19 18:13:43.007 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:13:43.007 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:13:43.048 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2019-05-19 18:14:57.315 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 12596 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:14:57.335 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:14:57.557 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19b7c20a: startup date [Sun May 19 18:14:57 CST 2019]; root of context hierarchy
+2019-05-19 18:15:02.396 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f66318d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:15:03.887 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:15:03.917 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:15:03.917 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:15:03.926 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:15:04.102 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:15:04.102 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 6546 ms
+2019-05-19 18:15:04.225 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:15:04.235 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:15:04.237 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:15:04.237 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:15:04.237 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:15:04.476 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:15:04.616 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:15:04.676 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:15:04.900 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:15:05.009 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:15:05.013 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:15:05.060 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:15:05.223 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:15:05.838 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:15:06.809 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:15:06.979 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:15:06.989 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:15:06.989 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:15:06.993 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:15:06.993 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:15:06.994 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:15:06.994 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:15:06.996 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:15:07.000 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:15:07.003 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:15:07.004 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:15:07.020 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:15:07.022 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:15:07.407 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:15:07.645 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:15:08.036 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19b7c20a: startup date [Sun May 19 18:14:57 CST 2019]; root of context hierarchy
+2019-05-19 18:15:08.157 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:15:08.161 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:15:08.731 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:15:08.784 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:15:08.789 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:15:08.798 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:15:08.806 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:15:08.806 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:15:08.839 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:15:08.883 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:15:09.214 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:15:09.216 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 12.715 seconds (JVM running for 14.104)
+2019-05-19 18:15:18.017 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:15:18.017 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:15:18.056 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-05-19 18:17:02.329 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 6684 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:17:02.329 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:17:02.488 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d94fdbf: startup date [Sun May 19 18:17:02 CST 2019]; root of context hierarchy
+2019-05-19 18:17:06.519 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e4d5718] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:17:07.817 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:17:07.850 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:17:07.850 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:17:07.858 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:17:08.016 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:17:08.016 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 5528 ms
+2019-05-19 18:17:08.136 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:17:08.142 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:17:08.146 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:17:08.146 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:17:08.147 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:17:08.369 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:17:08.521 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:17:08.592 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:17:08.826 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:17:08.936 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:17:08.940 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:17:08.987 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:17:09.173 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:17:09.794 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:17:10.721 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:17:10.822 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:17:10.823 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:17:10.829 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:17:10.830 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:17:10.831 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:17:10.831 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:17:10.831 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:17:10.834 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:17:10.839 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:17:10.839 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:17:10.839 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:17:10.845 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:17:10.847 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:17:11.333 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:17:11.504 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:17:11.973 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d94fdbf: startup date [Sun May 19 18:17:02 CST 2019]; root of context hierarchy
+2019-05-19 18:17:12.135 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:17:12.135 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:17:12.701 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:17:12.750 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:17:12.750 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:17:12.764 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:17:12.769 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:17:12.769 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:17:12.796 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:17:12.831 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:17:13.121 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:17:13.126 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 11.528 seconds (JVM running for 12.979)
+2019-05-19 18:17:30.353 [http-nio-8081-exec-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:17:30.354 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:17:30.405 [http-nio-8081-exec-1] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2019-05-19 18:21:16.372 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 12612 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:21:16.376 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:21:16.563 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29cad036: startup date [Sun May 19 18:21:16 CST 2019]; root of context hierarchy
+2019-05-19 18:21:20.678 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de2e608e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:21:21.893 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:21:21.925 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:21:21.926 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:21:21.932 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:21:22.081 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:21:22.081 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 5518 ms
+2019-05-19 18:21:22.202 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:21:22.207 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:21:22.211 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:21:22.212 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:21:22.212 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:21:22.431 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:21:22.588 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:21:22.655 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:21:22.905 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:21:23.014 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:21:23.018 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:21:23.066 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:21:23.252 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:21:23.920 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:21:24.845 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:21:24.935 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:21:24.935 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:21:24.942 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:21:24.943 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:21:24.943 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:21:24.943 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:21:24.943 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:21:24.943 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:21:24.952 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:21:24.952 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:21:24.955 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:21:24.975 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:21:24.976 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:21:25.452 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:21:25.624 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:21:26.043 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29cad036: startup date [Sun May 19 18:21:16 CST 2019]; root of context hierarchy
+2019-05-19 18:21:26.205 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:21:26.205 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:21:26.742 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:21:26.792 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:21:26.798 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:21:26.808 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:21:26.814 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:21:26.814 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:21:26.839 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:21:26.875 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:21:27.194 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:21:27.198 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 11.6 seconds (JVM running for 12.959)
+2019-05-19 18:26:41.008 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Starting WcharApplication on 75FSNYB25U5X91C with PID 2244 (E:\IdeaProjects\wchar\target\classes started by Administrator in E:\IdeaProjects\wchar)
+2019-05-19 18:26:41.016 [restartedMain] INFO 
+				com.mazhe.WcharApplication-The following profiles are active: uat
+2019-05-19 18:26:41.294 [restartedMain] INFO 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1f6ec499: startup date [Sun May 19 18:26:41 CST 2019]; root of context hierarchy
+2019-05-19 18:26:46.010 [restartedMain] INFO 
+				o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34bc8fb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-19 18:26:47.526 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8081 (http)
+2019-05-19 18:26:47.557 [restartedMain] INFO 
+				o.a.catalina.core.StandardService-Starting service [Tomcat]
+2019-05-19 18:26:47.557 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine-Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-05-19 18:26:47.565 [localhost-startStop-1] INFO 
+				o.a.c.core.AprLifecycleListener-The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-05-19 18:26:47.731 [localhost-startStop-1] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring embedded WebApplicationContext
+2019-05-19 18:26:47.731 [localhost-startStop-1] INFO 
+				o.s.web.context.ContextLoader-Root WebApplicationContext: initialization completed in 6437 ms
+2019-05-19 18:26:47.908 [localhost-startStop-1] INFO 
+				o.s.b.w.s.ServletRegistrationBean-Servlet dispatcherServlet mapped to [/]
+2019-05-19 18:26:47.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-19 18:26:47.914 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-19 18:26:47.917 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-19 18:26:47.917 [localhost-startStop-1] INFO 
+				o.s.b.w.s.FilterRegistrationBean-Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-19 18:26:48.158 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Starting...
+2019-05-19 18:26:48.329 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource-lol - Start completed.
+2019-05-19 18:26:48.394 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:26:48.655 [restartedMain] INFO 
+				o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-19 18:26:48.781 [restartedMain] INFO 
+				org.hibernate.Version-HHH000412: Hibernate Core {5.2.17.Final}
+2019-05-19 18:26:48.785 [restartedMain] INFO 
+				org.hibernate.cfg.Environment-HHH000206: hibernate.properties not found
+2019-05-19 18:26:48.844 [restartedMain] INFO 
+				o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-19 18:26:49.048 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-19 18:26:49.757 [restartedMain] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-19 18:26:51.415 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-19 18:26:51.590 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/test],methods=[POST]}" onto public com.mazhe.domain.Product com.mazhe.controller.OrderController.call(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:26:51.595 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/order/status],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.OrderController.checkStatus(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:26:51.597 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/type/{typeId}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductByType(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:26:51.602 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProductType(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:26:51.602 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/all],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findAllProduct(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:26:51.602 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProduct(javax.servlet.http.HttpServletRequest,com.mazhe.domain.Product)
+2019-05-19 18:26:51.602 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/productype/add],methods=[POST]}" onto public java.lang.Object com.mazhe.controller.WecharController.addProductType(javax.servlet.http.HttpServletRequest,com.mazhe.domain.ProductType)
+2019-05-19 18:26:51.602 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/api/wechar/product/find/{Id}],methods=[GET]}" onto public java.lang.Object com.mazhe.controller.WecharController.findProductById(javax.servlet.http.HttpServletRequest,java.lang.Long)
+2019-05-19 18:26:51.612 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-19 18:26:51.612 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-19 18:26:51.612 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-19 18:26:51.621 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-19 18:26:51.621 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-19 18:26:52.012 [restartedMain] INFO 
+				s.d.s.w.PropertySourcedRequestMappingHandlerMapping-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-19 18:26:52.188 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:26:52.545 [restartedMain] INFO 
+				o.s.w.s.m.m.a.RequestMappingHandlerAdapter-Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1f6ec499: startup date [Sun May 19 18:26:41 CST 2019]; root of context hierarchy
+2019-05-19 18:26:52.648 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:26:52.648 [restartedMain] INFO 
+				o.s.w.s.h.SimpleUrlHandlerMapping-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-19 18:26:53.199 [restartedMain] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2019-05-19 18:26:53.256 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Registering beans for JMX exposure on startup
+2019-05-19 18:26:53.262 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-19 18:26:53.273 [restartedMain] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter-Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-05-19 18:26:53.284 [restartedMain] INFO 
+				o.s.c.s.DefaultLifecycleProcessor-Starting beans in phase 2147483647
+2019-05-19 18:26:53.284 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Context refreshed
+2019-05-19 18:26:53.321 [restartedMain] INFO 
+				s.d.s.w.p.DocumentationPluginsBootstrapper-Found 1 custom documentation plugin(s)
+2019-05-19 18:26:53.380 [restartedMain] INFO 
+				s.d.s.w.s.ApiListingReferenceScanner-Scanning for api listing references
+2019-05-19 18:26:53.801 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8081 (http) with context path '/shop'
+2019-05-19 18:26:53.811 [restartedMain] INFO 
+				com.mazhe.WcharApplication-Started WcharApplication in 13.649 seconds (JVM running for 15.292)
+2019-05-19 18:29:28.947 [http-nio-8081-exec-10] INFO 
+				o.a.c.c.C.[.[localhost].[/shop]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-19 18:29:28.948 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-19 18:29:29.002 [http-nio-8081-exec-10] INFO 
+				o.s.web.servlet.DispatcherServlet-FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2019-05-19 18:29:52.761 [http-nio-8081-exec-4] INFO 
+				c.mazhe.controller.WecharController-find all productType - start
+2019-05-19 18:29:52.823 [http-nio-8081-exec-4] INFO 
+				o.h.h.i.QueryTranslatorFactoryInitiator-HHH000397: Using ASTQueryTranslatorFactory
+2019-05-19 18:30:08.667 [http-nio-8081-exec-3] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-19 18:30:30.190 [http-nio-8081-exec-1] INFO 
+				c.mazhe.controller.WecharController-find all product - start
+2019-05-19 18:31:13.709 [http-nio-8081-exec-10] INFO 
+				c.mazhe.controller.WecharController-find all product - start

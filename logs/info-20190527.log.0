@@ -1,0 +1,4 @@
+2019-05-27 01:14:05.493 [lol housekeeper] WARN 
+				com.zaxxer.hikari.pool.HikariPool-lol - Thread starvation or clock leap detected (housekeeper delta=3h30s241ms738µs100ns).
+2019-05-27 21:18:39.948 [lol housekeeper] WARN 
+				com.zaxxer.hikari.pool.HikariPool-lol - Thread starvation or clock leap detected (housekeeper delta=20h4m41s237ms4µs100ns).
