@@ -15,7 +15,7 @@ import java.sql.Timestamp;
 /**
  * Created by Administrator on 2019/5/15.
  */
-@ApiModel(value = "Product", description = "商品对象")
+@ApiModel(value = "User", description = "用户")
 @Data
 @Entity
 @Table(name = "user")

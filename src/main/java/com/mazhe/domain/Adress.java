@@ -1,6 +1,7 @@
 package com.mazhe.domain;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,6 +14,7 @@ import java.sql.Timestamp;
 /**
  * Created by Administrator on 2019/5/15.
  */
+@ApiModel(value = "Adress", description = "用户信息")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
