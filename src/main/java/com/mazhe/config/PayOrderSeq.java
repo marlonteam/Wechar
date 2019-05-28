@@ -1,11 +1,12 @@
 package com.mazhe.config;
 
 
+import com.mazhe.util.DateUtil;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicLong;
-
-import com.mazhe.util.DateUtil;
-import org.springframework.stereotype.Component;
 
 
 
@@ -25,11 +26,13 @@ public class PayOrderSeq {
 	private static String pay_seq_prefix = "P";
 
 	private static String node = "01";
+
 	public static String getNode() {
 		return node;
 	}
 
-	public static void setNode(String node) {
+	@Value("${node}")
+	public  void setNode(String node) {
 		PayOrderSeq.node = node;
 	}
 
