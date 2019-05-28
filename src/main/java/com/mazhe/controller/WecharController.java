@@ -2,9 +2,11 @@ package com.mazhe.controller;
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.mazhe.domain.Adress;
 import com.mazhe.domain.BaseMessage;
 import com.mazhe.domain.Product;
 import com.mazhe.domain.ProductType;
+import com.mazhe.service.ManageService;
 import com.mazhe.service.ProductService;
 import com.mazhe.service.UploadService;
 import com.mazhe.util.HttpsUntils;
@@ -46,11 +48,10 @@ public class WecharController {
     @Autowired
     private UploadService uploadService;
 
-    /**
-     * 获取所有商品（produce）明细
-     * @param request
-     * @return
-     */
+    @Autowired
+    private ManageService manageService;
+
+
     @ApiOperation(value="获取所有商品（produce）明细", notes="获取所有商品（produce）明细")
     @GetMapping(value = "product/find/all")
     public Object findAllProduct(HttpServletRequest request ) {
@@ -72,7 +73,7 @@ public class WecharController {
         return new ResponseEntity<>(productService.productFindById(id), HttpStatus.OK);
     }
 
-    @ApiOperation(value="添加商品商品produce（添加时ID设置为空）", notes="添加商品商品produce（添加时ID设置为空）")
+    @ApiOperation(value="添加商品商品produce（添加时ID设置为空）,更新时Id不为空", notes="添加商品商品produce（添加时ID设置为空），更新时Id不为空")
     @PostMapping(value = "product/add")
     public  Object  addProduct(HttpServletRequest requestBack, @RequestBody Product product){
         return new ResponseEntity<>( productService.productSave(product), HttpStatus.OK);
@@ -86,7 +87,7 @@ public class WecharController {
         return new ResponseEntity<>(productService.productTypeFindAll(), HttpStatus.OK);
     }
 
-    @ApiOperation(value="添加商品类别produceType（添加时ID设置为空）", notes="添加商品商品produceType（添加时ID设置为空）")
+    @ApiOperation(value="添加商品类别produceType（添加时ID设置为空），更新时Id不为空", notes="添加商品商品produceType（添加时ID设置为空），更新时Id不为空")
     @PostMapping(value = "productype/add")
     public  Object  addProductType(HttpServletRequest requestBack, @RequestBody ProductType productType){
         return new ResponseEntity<>( productService.productTypeSave(productType), HttpStatus.OK);
@@ -107,7 +108,7 @@ public class WecharController {
 
 
     //微信登陆获取openid 和session_key
-
+    @ApiOperation(value="微信登陆获取openid", notes="微信登陆获取openid")
     @GetMapping(value = "/wechar/login")
     public Object wecharlogin(@RequestParam(name = "code", required = false, defaultValue = "") String code) {
         log.info("微信code:{}", code);
@@ -156,8 +157,24 @@ public class WecharController {
         map.put("session_key", session_key);
         map.put("status", errcode);
         map.put("msg", errmsg);
+        if(StringUtils.isNotBlank(openid)){
+            //保存用户openId到数据库
+            manageService.userAdd(openid);
+        }
         return new ResponseEntity<>( BaseMessage.Success(map), HttpStatus.OK);
     }
 
+    @ApiOperation(value="修改更新用户地址，添加是ID为null,更新时Id为地址id", notes="修改更新用户地址，添加是ID为null,更新时Id为地址id")
+    @PostMapping(value = "adress/save")
+    public  Object  addAdress(HttpServletRequest requestBack, @RequestBody Adress adress){
+        return new ResponseEntity<>( manageService.adressAdd(adress), HttpStatus.OK);
+    }
+
+    @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
+    @GetMapping(value = "adress/find/{openid}")
+    public Object findAdressByOpenId(HttpServletRequest request ,@PathVariable("openid") String openId) {
+        log.info("find all productType - start");
+        return new ResponseEntity<>(manageService.adressByOpenId(openId), HttpStatus.OK);
+    }
 
 }

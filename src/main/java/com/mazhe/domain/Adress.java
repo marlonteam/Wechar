@@ -32,11 +32,11 @@ public class Adress   implements Serializable {
     private String openId;
 
     @Column(name = "adress",columnDefinition=("varchar(225)  COMMENT '收货地址'"))
-    @ApiModelProperty(value = "小程序用户唯一标识")
+    @ApiModelProperty(value = "收货地址")
     private String adress;
 
     @Column(name = "defaultFlag",columnDefinition=("varchar(225)  COMMENT '默认收获地址 true为默认，false为普通地址'"))
-    @ApiModelProperty(value = "小程序用户唯一标识")
+    @ApiModelProperty(value = "默认收获地址 true为默认，false为普通地址")
     private String defaultFlag;
 
 

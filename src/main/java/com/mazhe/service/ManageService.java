@@ -37,6 +37,9 @@ public class ManageService {
         userModel.setOpenId(openId);
         userModel.setCreateDate(DateUtil.getCurTimestamp());
         User user = userRepository.save(userModel);
+        if(user!=null){
+            log.info("用户登录小程序保存入库 openId{}",openId);
+        }
        return  BaseMessage.Success(user);
 
     }
@@ -70,7 +73,7 @@ public class ManageService {
     }
 
     //查询用户的地址，按默认地址排序
-    public BaseMessage adressAdd(String openId) {
+    public BaseMessage adressByOpenId(String openId) {
       List<Adress> adressList= adressRepository.findAllByOpenIdOrderByDefaultFlagAsc(openId);
       if(null!=adressList&&adressList.size()>0){
           return  BaseMessage.Success(adressList);
