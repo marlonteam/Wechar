@@ -37,6 +37,8 @@ public class PayOrderSeq {
 	}
 
 
+	
+
 	public static String getPay(String mchid) {
 		return getSeq(pay_seq_prefix, pay_seq,mchid);
 	}
