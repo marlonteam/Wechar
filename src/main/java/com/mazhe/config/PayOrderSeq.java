@@ -26,8 +26,6 @@ public class PayOrderSeq {
 	private static AtomicLong order_seq = new AtomicLong(0L);
 	private static String order_seq_prefix = "P";
 
-	private static AtomicLong shop_seq = new AtomicLong(0L);
-	private static String shop_seq_prefix = "S";
 
 	private static String node = "01";
 
@@ -50,18 +48,14 @@ public class PayOrderSeq {
 		return getSeq(order_seq_prefix, order_seq,mchid);
 	}
 
-	public static String getShopSeq(String mchid) {
-		return getSeq(shop_seq_prefix, shop_seq,mchid);
-	}
 
 	private static String getSeq(String prefix, AtomicLong seq,String mchid) {
 		prefix += getNode();
-		return String.format("%s%s%04d",prefix, DateUtil.format(new Date(),"yyyyMMdd")+getRandomNumberInRange(100000,999999), (int) seq.getAndIncrement() % 10000);
+		return String.format("%s%s%04d",prefix, DateUtil.format(new Date(),"yyyyMMdd")+getRandomNumberInRange(1000,9999), (int) seq.getAndIncrement() % 10000);
 	}
 
 
 	private static int getRandomNumberInRange(int min, int max) {
-
 		Random r = new Random();
 		return r.ints(min, (max + 1)).findFirst().getAsInt();
 
