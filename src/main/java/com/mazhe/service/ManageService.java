@@ -1,16 +1,20 @@
 package com.mazhe.service;
 
+import com.mazhe.config.PayOrderSeq;
 import com.mazhe.dao.AdressRepository;
 import com.mazhe.dao.UserRepository;
 import com.mazhe.domain.Adress;
 import com.mazhe.domain.BaseMessage;
 import com.mazhe.domain.User;
 import com.mazhe.util.DateUtil;
+import com.mazhe.util.JsonUtilities;
+import com.mazhe.util.StringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -33,10 +37,25 @@ public class ManageService {
      * @return
      */
     public BaseMessage userAdd(String openId){
-        User userModel=new User();
-        userModel.setOpenId(openId);
-        userModel.setCreateDate(DateUtil.getCurTimestamp());
+        String OrderSqe= PayOrderSeq.getOrderSeq(null);
+        log.info("用户:{}进入小程序  ，，每次进入唯一订单号：{}",openId,OrderSqe);
+        List<String> Ids=new ArrayList();
+        User userModel=userRepository.findOneByOpenId(openId).orElse(new User());
+        userModel.setShopId(OrderSqe);
+        if(userModel.getID()==null){
+            userModel.setCreateDate(DateUtil.getCurTimestamp());
+            userModel.setOpenId(openId);
+        }
+        else{
+            String json=userModel.getShopIds();
+            if(!StringUtil.isEmpty(json)){
+                Ids=JsonUtilities.readValue(json,List.class);
+            }
+        }
+        Ids.add(OrderSqe);
+        userModel.setShopIds(JsonUtilities.toJSon(Ids));
         User user = userRepository.save(userModel);
+        //添加订单号
         if(user!=null){
             log.info("用户登录小程序保存入库 openId{}",openId);
         }
@@ -83,5 +102,14 @@ public class ManageService {
       }
     }
 
-
+    //根据Id查询用户的地址
+    public BaseMessage adressById(String Id) {
+        Optional<Adress> adress= adressRepository.findById(Long.valueOf(Id));
+        if(adress.isPresent()){
+            return  BaseMessage.Success(adress.get());
+        }
+        else{
+            return  BaseMessage.Null(null);
+        }
+    }
 }

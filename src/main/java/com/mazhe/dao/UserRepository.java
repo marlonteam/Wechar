@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 @Repository
 public interface UserRepository extends CrudRepository<User, Long>, JpaSpecificationExecutor {
 
@@ -25,7 +27,7 @@ public interface UserRepository extends CrudRepository<User, Long>, JpaSpecifica
 //	@Query(value = "select distinct BIZOWNER from tpoltran union select distinct BIZOWNER from tpoltranhis", nativeQuery = true)
 //	Object[] findAllBZOwner();
 
-
+   Optional<User> findOneByOpenId(String openId);
 
 
 }

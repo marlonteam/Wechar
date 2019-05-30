@@ -24,14 +24,14 @@ public class OrderController {
     @GetMapping(value = "/status")
     public Object checkStatus(HttpServletRequest request ) {
         log.info("addOrder - start");
-    	return new ResponseEntity<>("Order API is running!", HttpStatus.OK); 
+    	return new ResponseEntity<>("OrderBase API is running!", HttpStatus.OK);
     }
     
     @PostMapping(value = "/test")
     public Product call(HttpServletRequest requestBack,@RequestBody  Product product ) {
     	log.info("addOrder - start{}", JSON.toJSONString(product));
     	return null;
-    	//return new ResponseEntity<>("Order API is running!", HttpStatus.OK);
+    	//return new ResponseEntity<>("OrderBase API is running!", HttpStatus.OK);
     }
     
 }
