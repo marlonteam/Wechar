@@ -1,31 +1,28 @@
  package com.mazhe.util;
 
-import java.sql.Timestamp;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.StringTokenizer;
-import java.util.TimeZone;
-import java.util.Comparator;
+ import cn.enn.order.infrastructure.NumConstants;
+ import com.google.common.collect.Lists;
+ import lombok.extern.slf4j.Slf4j;
 
-public final class DateUtil {
+ import java.sql.Timestamp;
+ import java.text.DateFormat;
+ import java.text.ParseException;
+ import java.text.SimpleDateFormat;
+ import java.util.*;
+
+ /**
+  * 时间工具类
+  * @author Yuhh
+  */
+ @Slf4j
+ public abstract class DateUtil {
 	public static final int DURATION_ERROR = -1;
 	public static final Date INFINITE_DATE = getInfiniteDate();
-
 	public static final String TIME_00 = "00:00:00";
 	public static final String TIME_24 = "23:59:59";
-	
 	public static final String FORMAT_DATE = "yyyy-MM-dd";
-	
+	public static final String FORMAT_DATE_STR = "yyyy-MM-dd HH:mm:ss";
+
 	public static Date adjust(Date d, TimeZone srcZone) {
 		TimeZone tgtZone = TimeZone.getDefault();
 		int timeDiff = srcZone.getRawOffset() - tgtZone.getRawOffset();
@@ -48,9 +45,24 @@ public final class DateUtil {
 		calendar.add(Calendar.MILLISECOND, timeDiff);
 		return calendar.getTime();
 	}
+	/**
+	 * 日期解析
+	 * @param source
+	 * @param format
+	 * @return
+	 * @throws ParseException
+	 */
+	public static Date parseDate(String source, String format) {
+		SimpleDateFormat sdf = new SimpleDateFormat(format);
+		try {
+			return sdf.parse(source);
+		} catch (ParseException e) {
+			return null;
+		}
+	}
 
 	public static Date valueOf(String date, DateFormat format) {
-		if (StringUtil.isEmpty(date))
+		if (Strings.isEmpty(date))
 			return null;
 
 		try {
@@ -71,7 +83,7 @@ public final class DateUtil {
 	}
 
 	public static Date valueOf(String date, String format) {
-		if (StringUtil.isEmpty(date)) {
+		if (Strings.isEmpty(date)) {
 			return null;
 		}
 		return valueOf(date, new SimpleDateFormat(format));
@@ -181,13 +193,7 @@ public final class DateUtil {
 		String dateString = formatter.format(currentTime);
 		return dateString;
 	}
-	public static String getCurrent() {
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
-		Date currentTime = new Date();
-		String dateString = formatter.format(currentTime);
-		return dateString;
-	}
-
+	
 	public static String getCurrentDate() {
 		SimpleDateFormat formatter = new SimpleDateFormat(
 				"yyyy/MM/dd");
@@ -196,6 +202,17 @@ public final class DateUtil {
 		return dateString;
 	}
 
+	/**
+	 * 获取当前时间字符串 (格式：yyyy-MM-dd HH:mm:ss)
+	 * @return
+	 */
+	public static String getCurrentDate1() {
+		SimpleDateFormat formatter = new SimpleDateFormat(
+				"yyyy-MM-dd HH:mm:ss");
+		Date currentTime = new Date();
+		String dateString = formatter.format(currentTime);
+		return dateString;
+	}
 	public static String getCurrentDateSDF() {
 		SimpleDateFormat formatter = new SimpleDateFormat(
 				"yyyy-MM-dd");
@@ -364,6 +381,13 @@ public final class DateUtil {
 		Calendar c = Calendar.getInstance();
 		c.setTime(date);
 		c.add(Calendar.DAY_OF_YEAR, period);
+		return c.getTime();
+	}
+
+	public static Date dateAdvance_Hour(Date date, int period) {
+		Calendar c = Calendar.getInstance();
+		c.setTime(date);
+		c.add(Calendar.HOUR, period);
 		return c.getTime();
 	}
 
@@ -711,9 +735,25 @@ public final class DateUtil {
         String dayBefore = new SimpleDateFormat("yyyy-MM-dd").format(c  
                 .getTime());  
         return dayBefore;  
-    }  
-  
-    /** 
+    }
+
+	/**
+	 * 获得当前日期的指定某一天
+	 *
+	 * @param days
+	 * @return
+	 * @throws Exception
+	 */
+	public static String getSpecifiedDayBefore(int days) {//可以用new Date().toLocalString()传递参数
+		Calendar c = Calendar.getInstance();
+		c.setTime(new Date());
+		int day = c.get(Calendar.DATE);
+		c.set(Calendar.DATE, day - days);
+		String dayBefore = new SimpleDateFormat("yyyy-MM-dd").format(c
+				.getTime());
+		return dayBefore;
+	}
+	/**
      * 获得指定日期的后一天 
      *  
      * @param specifiedDay 
@@ -736,31 +776,157 @@ public final class DateUtil {
         return dayAfter;  
     }  
 
-}
 
-class ComparatorDate implements Comparator<String> {
-	@Override
-	public int compare(String date1, String date2) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+	public static List<Date> getWeekDay(String specifiedDay) throws ParseException {
 
-		try {
-			Date begin = sdf.parse(date1);
-			Date end = sdf.parse(date2);
-			if (begin.after(end)) {
-				return 1;
-			} else {
-				return -1;
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
+		SimpleDateFormat sdf=new SimpleDateFormat(FORMAT_DATE); //设置时间格式
+		Calendar cal = Calendar.getInstance();
+		Date time=sdf.parse(specifiedDay);
+		cal.setTime(time);
+		//判断要计算的日期是否是周日，如果是则减一天计算周六的，否则会出问题，计算到下一周去了
+		int dayWeek = cal.get(Calendar.DAY_OF_WEEK);//获得当前日期是一个星期的第几天
+		if(1 == dayWeek) {
+			cal.add(Calendar.DAY_OF_MONTH, -1);
 		}
-		return 0;
-
-		
-
+		cal.setFirstDayOfWeek(Calendar.MONDAY);//设置一个星期的第一天，按中国的习惯一个星期的第一天是星期一
+		int day = cal.get(Calendar.DAY_OF_WEEK);//获得当前日期是一个星期的第几天
+		List<Date> weekDate = Lists.newArrayList();
+		cal.add(Calendar.DATE, cal.getFirstDayOfWeek()-day);//根据日历的规则，给当前日期减去星期几与一个星期第一天的差值
+		String firstDay = sdf.format(cal.getTime());
+		log.info("所在周星期一的日期："+ firstDay);
+		log.info(cal.getFirstDayOfWeek()+"-"+day+"+6="+(cal.getFirstDayOfWeek()-day+6));
+		weekDate.add(DateUtil.parseDate(firstDay,FORMAT_DATE));
+		cal.add(Calendar.DATE, 6);
+		weekDate.add(DateUtil.parseDate(sdf.format(cal.getTime()),FORMAT_DATE));
+		log.info("所在周星期日的日期："+sdf.format(cal.getTime()));
+		return weekDate;
 	}
-	
 
-	
+	//获取指定日期的该月第一天
+	public static String getLastDayOfMonth(String datadate)throws Exception{
+		Date date = null;
+		String day_last = null;
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+		date = format.parse(datadate);
+
+		//创建日历
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+		calendar.add(Calendar.MONTH, 1);    //加一个月
+		calendar.set(Calendar.DATE, 1);     //设置为该月第一天
+		calendar.add(Calendar.DATE, -1);    //再减一天即为上个月最后一天
+		day_last = format.format(calendar.getTime());
+		return day_last;
+	}
+	//获取指定日期的该月第一天
+	public static String getFirstDayOfMonth(String datadate)throws Exception{
+		Date date = null;
+		String day_first = null;
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+		date = format.parse(datadate);
+
+		//创建日历
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+		calendar.set(Calendar.DAY_OF_MONTH, 1);
+		day_first = format.format(calendar.getTime());
+		return day_first;
+	}
+
+	 /**
+	  * 时间往前推移一秒
+	  * @return
+	  */
+	 public static String dateLessOneSecond(String strDate){
+		 SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATE_STR);
+		 Date parse = null;
+		 try {
+			 parse = sdf.parse(strDate);
+		 } catch (ParseException e) {
+			 return null;
+		 }
+		 Calendar calendar = new  GregorianCalendar();
+		 calendar.setTime(parse);
+		 calendar.add(Calendar.SECOND, NumConstants.NUMBER_NEGATIVE_ONE);
+		 return sdf.format(calendar.getTime());
+	 }
+
+	 /**
+	  * 时间往后推移一秒
+	  * @return
+	  */
+	public static String datePlusOneSecond(String strDate){
+		SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATE_STR);
+		Date parse = null;
+		try {
+			parse = sdf.parse(strDate);
+		} catch (ParseException e) {
+			return null;
+		}
+		Calendar calendar = new  GregorianCalendar();
+		calendar.setTime(parse);
+		calendar.add(Calendar.SECOND, NumConstants.NUMBER_ONE);
+		return sdf.format(calendar.getTime());
+	}
+
+	 /**
+	  * 时间往后推移一天
+	  * @param strDate
+	  * @return
+	  */
+	 public static String datePlusOneDay(String strDate) {
+		 SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATE_STR);
+		 Date parse = null;
+		 try {
+			 parse = sdf.parse(strDate);
+		 } catch (ParseException e) {
+			 return null;
+		 }
+		 Calendar calendar = new  GregorianCalendar();
+		 calendar.setTime(parse);
+		 calendar.add(Calendar.DATE, NumConstants.NUMBER_ONE);
+		 return sdf.format(calendar.getTime());
+	 }
+
+	 /**
+	  * 时间往后推移一年
+	  * @param strDate
+	  * @return
+	  */
+	 public static String datePlusOneYear(String strDate){
+		 SimpleDateFormat sdf = new SimpleDateFormat(FORMAT_DATE_STR);
+		 Date parse = null;
+		 try {
+			 parse = sdf.parse(strDate);
+		 } catch (ParseException e) {
+			 return null;
+		 }
+		 Calendar calendar = new  GregorianCalendar();
+		 calendar.setTime(parse);
+		 calendar.add(Calendar.YEAR, NumConstants.NUMBER_ONE);
+		 return sdf.format(calendar.getTime());
+
+	 }
+
 }
+
+ class ComparatorDate implements Comparator<String> {
+     @Override
+     public int compare(String date1, String date2) {
+         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+         try {
+             Date begin = sdf.parse(date1);
+             Date end = sdf.parse(date2);
+             if (begin.after(end)) {
+                 return 1;
+             } else {
+                 return -1;
+             }
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+         return 0;
+     }
+ }
 
