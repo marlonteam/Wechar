@@ -35,13 +35,14 @@ public class User   implements Serializable {
     @ApiModelProperty(value = "小程序用户唯一标识")
     private String openId;
 
-    @Column(name = "shopIds",columnDefinition=("longtext  COMMENT '购物车记录'"))
-    @ApiModelProperty(value = "购物车记录")
+    @Column(name = "orderSeqs",columnDefinition=("longtext  COMMENT '所有订单号'"))
+    @ApiModelProperty(value = "所有订单号")
     @JsonIgnore
-    private String shopIds;
+    private String orderSeqs;
 
-    @Transient
-    private String shopId;
+    @Column(name = "orderSeq",columnDefinition=("String  COMMENT '当前订单号'"))
+    @ApiModelProperty(value = "当前订单号")
+    private String orderSeq;
 
     @Column(name = "message",columnDefinition=("varchar(225)  COMMENT '备注信息'"))
     @ApiModelProperty(value = "备注信息")
@@ -51,8 +52,6 @@ public class User   implements Serializable {
     @ApiModelProperty(value = "角色")
     @JsonIgnore
     private String role;
-
-
 
     @Column(name="createdate")
     @ApiModelProperty(value = "创建时间")

@@ -33,14 +33,24 @@ public class OrderBase implements Serializable {
 
     //订单号
 
+    //订单总金额
 
     //订单状态 1进入购物车,2 订单用户确认（现在为最终）
 
     //订单金额
 
-    //收获地址ID
-
     //留言
+
+    //地址ID
+
+
+
+    //收获地址
+
+    //联系方式
+
+    //收货人
+
 
 
     @Column(name = "message",columnDefinition=("varchar(225)  COMMENT '备注信息'"))

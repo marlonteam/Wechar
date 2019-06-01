@@ -26,10 +26,27 @@ public class OrderDetail   implements Serializable {
     @ApiModelProperty(dataType="Long",value = "id唯一标识")
     private Long ID;
 
-    //openId
-//    @Column(name = "openId",columnDefinition=("varchar(225)  COMMENT '小程序用户唯一标识'"))
-//    @ApiModelProperty(value = "小程序用户唯一标识")
-//    private String openId;
+    //订单号
+    @Column(name = "openId",columnDefinition=("varchar(225)  COMMENT '小程序用户唯一标识'"))
+    @ApiModelProperty(value = "小程序用户唯一标识")
+    private String openId;
+
+    //金额
+
+    //状态
+
+    //商品id
+
+
+
+
+    //商品名称
+
+    //url
+
+
+
+
 
 
     @Column(name = "message",columnDefinition=("varchar(225)  COMMENT '备注信息'"))
