@@ -1,17 +1,16 @@
 package com.mazhe.util;
 
-import java.io.InputStream;
-
-import org.springframework.stereotype.Service;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * The class JacksonUtil
- *
  * json字符与对像转换
- * 
+ * @author yhh
  * @version: $Revision$ $Date$ $LastChangedBy$
  *
  */
@@ -117,5 +116,15 @@ public class JsonUtilities {
 		return null;
 	}
 
+	//输入流转字节数组
+	public static byte[] toByteArray(InputStream input) throws IOException {
+		ByteArrayOutputStream output = new ByteArrayOutputStream();
+		byte[] buffer = new byte[1024*4];
+		int n = 0;
+		while (-1 != (n = input.read(buffer))) {
+			output.write(buffer, 0, n);
+		}
+		return output.toByteArray();
+	}
 
 }

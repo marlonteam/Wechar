@@ -1,6 +1,7 @@
 package com.mazhe.domain;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,6 +14,7 @@ import java.sql.Timestamp;
 /**
  * Created by Administrator on 2019/5/15.
  */
+@ApiModel(value = "OrderBase", description = "订单信息")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -32,8 +34,12 @@ public class OrderBase implements Serializable {
     private String openId;
 
     //订单号
+    @Column(name = "orderSeq",columnDefinition=("varchar(225)  COMMENT '订单号'"))
+    @ApiModelProperty(value = "订单号")
+    private String orderSeq;
 
     //订单总金额
+
 
     //订单状态 1进入购物车,2 订单用户确认（现在为最终）
 
@@ -42,8 +48,6 @@ public class OrderBase implements Serializable {
     //留言
 
     //地址ID
-
-
 
     //收获地址
 

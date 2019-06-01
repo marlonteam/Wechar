@@ -40,7 +40,7 @@ public class User   implements Serializable {
     @JsonIgnore
     private String orderSeqs;
 
-    @Column(name = "orderSeq",columnDefinition=("String  COMMENT '当前订单号'"))
+    @Column(name = "orderSeq",columnDefinition=("varchar(225)  COMMENT '当前订单号'"))
     @ApiModelProperty(value = "当前订单号")
     private String orderSeq;
 
