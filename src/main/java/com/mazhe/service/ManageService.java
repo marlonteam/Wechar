@@ -41,19 +41,19 @@ public class ManageService {
         log.info("用户:{}进入小程序  ，，每次进入唯一订单号：{}",openId,OrderSqe);
         List<String> Ids=new ArrayList();
         User userModel=userRepository.findOneByOpenId(openId).orElse(new User());
-        userModel.setShopId(OrderSqe);
+        userModel.setOrderSeq(OrderSqe);
         if(userModel.getID()==null){
             userModel.setCreateDate(DateUtil.getCurTimestamp());
             userModel.setOpenId(openId);
         }
         else{
-            String json=userModel.getShopIds();
+            String json=userModel.getOrderSeqs();
             if(!StringUtil.isEmpty(json)){
                 Ids=JsonUtilities.readValue(json,List.class);
             }
         }
         Ids.add(OrderSqe);
-        userModel.setShopIds(JsonUtilities.toJSon(Ids));
+        userModel.setOrderSeqs(JsonUtilities.toJSon(Ids));
         User user = userRepository.save(userModel);
         //添加订单号
         if(user!=null){
