@@ -33,7 +33,7 @@ public class Product  implements Serializable {
     private Long ID;
 
     @NotNull
-    @Column(name = "productname",columnDefinition=("varchar(225)  COMMENT '产品名称'"))
+    @Column(name = "productName",columnDefinition=("varchar(225)  COMMENT '产品名称'"))
     @ApiModelProperty(value = "产品名称")
     private String productName;
 
@@ -42,12 +42,12 @@ public class Product  implements Serializable {
     private String message;
 
 
-    @Column(name = "imageurl",columnDefinition=("varchar(225)  COMMENT '图片地址'"))
+    @Column(name = "imageUrl",columnDefinition=("varchar(225)  COMMENT '图片地址'"))
     @ApiModelProperty(value = "图片地址")
     private String imageUrl;
 
     @NotNull
-    @Column(name = "typeid",columnDefinition=("int  COMMENT '产品类型ID'"))
+    @Column(name = "typeId",columnDefinition=("int  COMMENT '产品类型ID'"))
     @ApiModelProperty(value = "产品类型ID")
     private Long typeId;
 
@@ -56,7 +56,7 @@ public class Product  implements Serializable {
     @ApiModelProperty(value = "价格")
     private BigDecimal price;
 
-    @Column(name="createdate")
+    @Column(name="createDate")
     @ApiModelProperty(dataType="String",value = "创建时间")
     private Timestamp createDate;
 

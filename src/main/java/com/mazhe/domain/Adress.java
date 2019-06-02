@@ -37,6 +37,14 @@ public class Adress   implements Serializable {
     @ApiModelProperty(value = "收货地址")
     private String adress;
 
+    @Column(name = "userName",columnDefinition=("varchar(225)  COMMENT '联系人'"))
+    @ApiModelProperty(value = "联系人")
+    private String userName;
+
+    @Column(name = "phone",columnDefinition=("varchar(225)  COMMENT '联系电话'"))
+    @ApiModelProperty(value = "联系电话")
+    private String phone;
+
     @Column(name = "defaultFlag",columnDefinition=("varchar(225)  COMMENT '默认收获地址 true为默认，false为普通地址'"))
     @ApiModelProperty(value = "默认收获地址 true为默认，false为普通地址")
     private String defaultFlag;
@@ -46,7 +54,7 @@ public class Adress   implements Serializable {
     @ApiModelProperty(value = "备注信息")
     private String message;
 
-    @Column(name="createdate")
+    @Column(name="createDate")
     @ApiModelProperty(value = "创建时间")
     private Timestamp createDate;
 

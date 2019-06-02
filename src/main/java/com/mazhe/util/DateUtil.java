@@ -1,6 +1,5 @@
  package com.mazhe.util;
 
- import cn.enn.order.infrastructure.NumConstants;
  import com.google.common.collect.Lists;
  import lombok.extern.slf4j.Slf4j;
 
@@ -847,7 +846,7 @@
 		 }
 		 Calendar calendar = new  GregorianCalendar();
 		 calendar.setTime(parse);
-		 calendar.add(Calendar.SECOND, NumConstants.NUMBER_NEGATIVE_ONE);
+		 calendar.add(Calendar.SECOND, -1);
 		 return sdf.format(calendar.getTime());
 	 }
 
@@ -865,7 +864,7 @@
 		}
 		Calendar calendar = new  GregorianCalendar();
 		calendar.setTime(parse);
-		calendar.add(Calendar.SECOND, NumConstants.NUMBER_ONE);
+		calendar.add(Calendar.SECOND, 1);
 		return sdf.format(calendar.getTime());
 	}
 
@@ -884,7 +883,7 @@
 		 }
 		 Calendar calendar = new  GregorianCalendar();
 		 calendar.setTime(parse);
-		 calendar.add(Calendar.DATE, NumConstants.NUMBER_ONE);
+		 calendar.add(Calendar.DATE, -1);
 		 return sdf.format(calendar.getTime());
 	 }
 
@@ -903,7 +902,7 @@
 		 }
 		 Calendar calendar = new  GregorianCalendar();
 		 calendar.setTime(parse);
-		 calendar.add(Calendar.YEAR, NumConstants.NUMBER_ONE);
+		 calendar.add(Calendar.YEAR,-1);
 		 return sdf.format(calendar.getTime());
 
 	 }

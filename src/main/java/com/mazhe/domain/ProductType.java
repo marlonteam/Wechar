@@ -27,7 +27,7 @@ public class  ProductType  implements Serializable {
     private Long ID;
 
     @NotNull
-    @Column(name = "typename",columnDefinition=("varchar(225)  COMMENT '产品类型名称'"))
+    @Column(name = "typeName",columnDefinition=("varchar(225)  COMMENT '产品类型名称'"))
     @ApiModelProperty(value = "产品类型名称")
     private String typeName;
 
@@ -36,7 +36,7 @@ public class  ProductType  implements Serializable {
     @ApiModelProperty(value = "备注信息")
     private String message;
 
-    @Column(name="createdate")
+    @Column(name="createDate")
     @ApiModelProperty(value = "创建时间")
     private Timestamp createDate;
 

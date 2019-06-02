@@ -43,7 +43,7 @@ public class UploadService {
         if(!targetFile.exists()){
             targetFile.mkdirs();
         }
-        String path= filePath+ DateUtil.getCurrent()+"_"+fileName;
+        String path= filePath+ DateUtil.getCurrentDate()+"_"+fileName;
         FileOutputStream out = new FileOutputStream(path);
         out.write(file);
         out.flush();

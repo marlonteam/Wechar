@@ -53,7 +53,7 @@ public class User   implements Serializable {
     @JsonIgnore
     private String role;
 
-    @Column(name="createdate")
+    @Column(name="createDate")
     @ApiModelProperty(value = "创建时间")
     private Timestamp createDate;
 }
