@@ -20,4 +20,7 @@ public class BaseMessage<T> {
         return new BaseMessage("501","请求数据为空",null);
     }
 
+    public  static  BaseMessage Fail(String message){
+        return new BaseMessage("500",message,null);
+    }
 }

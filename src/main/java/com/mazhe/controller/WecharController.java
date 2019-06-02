@@ -2,10 +2,7 @@ package com.mazhe.controller;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.mazhe.domain.Adress;
-import com.mazhe.domain.BaseMessage;
-import com.mazhe.domain.Product;
-import com.mazhe.domain.ProductType;
+import com.mazhe.domain.*;
 import com.mazhe.service.ManageService;
 import com.mazhe.service.ProductService;
 import com.mazhe.service.UploadService;
@@ -23,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @CrossOrigin
@@ -60,7 +58,7 @@ public class WecharController {
     }
 
 
-    @ApiOperation(value="根据类型获取商品", notes="根据类型获取商品")
+    @ApiOperation(value="根据id获取商品", notes="根据类型获取商品")
     @GetMapping(value = "product/find/type/{typeId}")
     public Object findProductByType(HttpServletRequest request ,@PathVariable("typeId") Long typeId ) {
         return new ResponseEntity<>(productService.productFindByTypeId(typeId), HttpStatus.OK);
@@ -115,9 +113,9 @@ public class WecharController {
         Map map = new HashMap();
         //登录凭证不能为空
         if (code == null || code.length() == 0) {
-            map.put("status", 0);
+            map.put("code", 0);
             map.put("msg", "code 不能为空");
-            return map;
+            return new ResponseEntity<>(BaseMessage.Null( map), HttpStatus.OK);
         }
         //小程序唯一标识   (在微信小程序管理后台获取)
         String wxspAppid = wxappid;
@@ -134,7 +132,7 @@ public class WecharController {
         //解析相应内容（转换成json对象）
         log.info("微信返回：{}", sr);
         if (StringUtils.isEmpty(sr)) {
-            map.put("status", 0);
+            map.put("code", 0);
             map.put("msg", "微信返回为空");
             return new ResponseEntity<>(BaseMessage.Null( map), HttpStatus.OK);
         }
@@ -152,16 +150,15 @@ public class WecharController {
             errcode = json.get("errcode").toString();
         }
         //获取会话密钥（errmsg）
-        String errmsg = (String) json.get("errmsg");
-        map.put("openId", openid);
-        map.put("session_key", session_key);
-        map.put("status", errcode);
-        map.put("msg", errmsg);
         if(StringUtils.isNotBlank(openid)){
             //保存用户openId到数据库
-            manageService.userAdd(openid);
+            BaseMessage user=manageService.userAdd(openid);
+            return new ResponseEntity<>( BaseMessage.Success(user), HttpStatus.OK);
         }
-        return new ResponseEntity<>( BaseMessage.Success(map), HttpStatus.OK);
+        else{
+            return new ResponseEntity<>( BaseMessage.Fail("微信返回无openId"), HttpStatus.OK);
+        }
+
     }
 
     @ApiOperation(value="修改更新用户地址，添加是ID为null,更新时Id为地址id", notes="修改更新用户地址，添加是ID为null,更新时Id为地址id")
@@ -175,6 +172,45 @@ public class WecharController {
     public Object findAdressByOpenId(HttpServletRequest request ,@PathVariable("openid") String openId) {
         log.info("find all productType - start");
         return new ResponseEntity<>(manageService.adressByOpenId(openId), HttpStatus.OK);
+    }
+
+    //用户添加购物车
+    @ApiOperation(value="用户添加购物车", notes="用户添加购物车")
+    @PostMapping(value = "add/shop")
+    public  Object  guestAddShop(HttpServletRequest requestBack, @RequestBody List<OrderDetail> orderDetailList){
+        return new ResponseEntity<>( manageService.addShop(orderDetailList), HttpStatus.OK);
+    }
+
+    //用户确认下单
+    @ApiOperation(value="用户确认下单", notes="用户确认下单")
+    @PostMapping(value = "order/confirm")
+    public  Object  orderConfirm(HttpServletRequest requestBack, @RequestBody OrderCreate orderCreate){
+        return new ResponseEntity<>( manageService.orderCreate(orderCreate), HttpStatus.OK);
+    }
+
+    //用户历史订单查询
+    @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
+    @GetMapping(value = "order/queryall/{openid}/{pagenumber}/{pagesize}")
+    public Object orderQueryAll(HttpServletRequest request ,@PathVariable("pagesize") int pagesize
+            ,@PathVariable("pagenumber") int pagenumber,@PathVariable("openid") String openId) {
+        log.info("find all productType - start");
+        return new ResponseEntity<>(manageService.queryOrderByOpenIdPage(openId,pagenumber,pagesize), HttpStatus.OK);
+    }
+
+    //用户昨日订单查询
+    @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
+    @GetMapping(value = "order/queryestdate/{openid}")
+    public Object orderQueryYestdate(HttpServletRequest request ,@PathVariable("openid") String openId) {
+        log.info("find all productType - start");
+        return new ResponseEntity<>(manageService.queryOrderByOpenIdYestdate(openId), HttpStatus.OK);
+    }
+
+    //用户最新购物车查询
+    @ApiOperation(value="用户最新购物车查询", notes="用户最新购物车查询")
+    @GetMapping(value = "order/shop/{openid}")
+    public Object orderShopQuery(HttpServletRequest request ,@PathVariable("openid") String openId) {
+        log.info("find all productType - start");
+        return new ResponseEntity<>(manageService.queryShopByOrderSqe(openId), HttpStatus.OK);
     }
 
 }
