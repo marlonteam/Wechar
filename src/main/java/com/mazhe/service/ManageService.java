@@ -6,6 +6,7 @@ import com.mazhe.dao.OrderBaseRepository;
 import com.mazhe.dao.OrderDetailRepository;
 import com.mazhe.dao.UserRepository;
 import com.mazhe.domain.*;
+import com.mazhe.token.JwtUtil;
 import com.mazhe.util.DateUtil;
 import com.mazhe.util.JsonUtilities;
 import com.mazhe.util.StringUtil;
@@ -67,6 +68,7 @@ public class ManageService {
         //添加订单号
         if(user!=null){
             log.info("用户登录小程序保存入库 openId{}",openId);
+            String token = JwtUtil.createJWT(6000000, user);
         }
        return  BaseMessage.Success(user);
 

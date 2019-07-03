@@ -2,10 +2,14 @@ package com.mazhe.controller;
 
 
 import com.alibaba.fastjson.JSONObject;
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.mazhe.domain.*;
 import com.mazhe.service.ManageService;
 import com.mazhe.service.ProductService;
 import com.mazhe.service.UploadService;
+import com.mazhe.token.CheckToken;
+import com.mazhe.token.LoginToken;
 import com.mazhe.util.HttpsUntils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -105,9 +109,13 @@ public class WecharController {
     }
 
 
+
+
+
     //微信登陆获取openid 和session_key
     @ApiOperation(value="微信登陆获取openid", notes="微信登陆获取openid")
     @GetMapping(value = "/wechar/login")
+    @LoginToken
     public Object wecharlogin(@RequestParam(name = "code", required = false, defaultValue = "") String code) {
         log.info("微信code:{}", code);
         Map map = new HashMap();
@@ -167,10 +175,21 @@ public class WecharController {
         return new ResponseEntity<>( manageService.adressAdd(adress), HttpStatus.OK);
     }
 
+
+
     @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
-    @GetMapping(value = "adress/find/{openid}")
-    public Object findAdressByOpenId(HttpServletRequest request ,@PathVariable("openid") String openId) {
+    @GetMapping(value = "adress/findbyuser")
+    @CheckToken
+    public Object findAdressByOpenId(HttpServletRequest request ) {
         log.info("find all productType - start");
+        // 从 http 请求头中取出 token
+        String token = request.getHeader("token");
+        String openId;
+        try {
+            openId = JWT.decode(token).getClaim("id").asString();
+        } catch (JWTDecodeException j) {
+            throw new RuntimeException("访问异常！");
+        }
         return new ResponseEntity<>(manageService.adressByOpenId(openId), HttpStatus.OK);
     }
 
@@ -189,27 +208,54 @@ public class WecharController {
     }
 
     //用户历史订单查询
-    @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
-    @GetMapping(value = "order/queryall/{openid}/{pagenumber}/{pagesize}")
+    @ApiOperation(value="用户历史订单查询", notes="用户历史订单查询")
+    @GetMapping(value = "order/queryallbyuser/{pagenumber}/{pagesize}")
+    @CheckToken
     public Object orderQueryAll(HttpServletRequest request ,@PathVariable("pagesize") int pagesize
-            ,@PathVariable("pagenumber") int pagenumber,@PathVariable("openid") String openId) {
+            ,@PathVariable("pagenumber") int pagenumber) {
         log.info("find all productType - start");
+        // 从 http 请求头中取出 token
+        String token = request.getHeader("token");
+        String openId;
+        try {
+            openId = JWT.decode(token).getClaim("id").asString();
+        } catch (JWTDecodeException j) {
+            throw new RuntimeException("访问异常！");
+        }
         return new ResponseEntity<>(manageService.queryOrderByOpenIdPage(openId,pagenumber,pagesize), HttpStatus.OK);
     }
 
     //用户昨日订单查询
-    @ApiOperation(value="根据openId查询所有地址", notes="根据openId查询所有地址")
-    @GetMapping(value = "order/queryestdate/{openid}")
-    public Object orderQueryYestdate(HttpServletRequest request ,@PathVariable("openid") String openId) {
+    @ApiOperation(value="用户昨日订单查询", notes="用户昨日订单查询")
+    @GetMapping(value = "order/queryestdate/user}")
+    @CheckToken
+    public Object orderQueryYestdate(HttpServletRequest request ) {
         log.info("find all productType - start");
+        // 从 http 请求头中取出 token
+        String token = request.getHeader("token");
+        String openId;
+        try {
+            openId = JWT.decode(token).getClaim("id").asString();
+        } catch (JWTDecodeException j) {
+            throw new RuntimeException("访问异常！");
+        }
         return new ResponseEntity<>(manageService.queryOrderByOpenIdYestdate(openId), HttpStatus.OK);
     }
 
     //用户最新购物车查询
     @ApiOperation(value="用户最新购物车查询", notes="用户最新购物车查询")
-    @GetMapping(value = "order/shop/{openid}")
-    public Object orderShopQuery(HttpServletRequest request ,@PathVariable("openid") String openId) {
+    @GetMapping(value = "order/shopbyuser")
+    @CheckToken
+    public Object orderShopQuery(HttpServletRequest request ) {
         log.info("find all productType - start");
+        // 从 http 请求头中取出 token
+        String token = request.getHeader("token");
+        String openId;
+        try {
+            openId = JWT.decode(token).getClaim("id").asString();
+        } catch (JWTDecodeException j) {
+            throw new RuntimeException("访问异常！");
+        }
         return new ResponseEntity<>(manageService.queryShopByOrderSqe(openId), HttpStatus.OK);
     }
 
