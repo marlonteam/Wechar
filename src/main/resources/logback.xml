@@ -16,10 +16,13 @@
 			</timeBasedFileNamingAndTriggeringPolicy>
 			<maxHistory>60</maxHistory>
 		</rollingPolicy>
-		<layout class="ch.qos.logback.classic.PatternLayout">
-			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
-				%logger{36}-%msg%n</Pattern>
-		</layout>
+		<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
+					%logger{36}-%msg%n</Pattern>
+			</layout>
+			<charset>UTF-8</charset>
+		</encoder>
 	</appender>
 
 	<!-- <appender name="REQUEST_FILE"
@@ -41,6 +44,7 @@
 			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
 				%logger{36}-%msg%n</Pattern>
 		</layout>
+		<charset>UTF-8</charset>
 		<filter class="ch.qos.logback.classic.filter.LevelFilter">  
 			<level>INFO</level>  
 		</filter>
@@ -61,10 +65,13 @@
 			</timeBasedFileNamingAndTriggeringPolicy>
 			<maxHistory>2</maxHistory>
 		</rollingPolicy>
-		<layout class="ch.qos.logback.classic.PatternLayout">
-			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
-				%logger{36}-%msg%n</Pattern>
-		</layout>
+		<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
+					%logger{36}-%msg%n</Pattern>
+			</layout>
+			<charset>UTF-8</charset>
+		</encoder>
 	</appender>
 
 	<root level="INFO">
@@ -75,25 +82,54 @@
 
 
 	<!--<springProfile name="test,dev,prod"> -->
-	<logger name="com.sinosoft" level="DEBUG" />
+
+	<logger name="org.hibernate.SQL" additivity="false" >
+		<level value="DEBUG" />
+		<appender-ref ref="INFO_FILE" />
+		<appender-ref ref="ERROR_FILE" />
+	</logger>
+
+	<!--<springProfile name="test,dev,prod"> -->
 	<logger name="tk.mybatis" level="DEBUG" />
 	<logger name="java.sql.Connection" level="DEBUG" />
 	<logger name="java.sql.Statement" level="DEBUG" />
 	<logger name="java.sql.PreparedStatement" level="DEBUG" />
+	<logger name="java.sql.PreparedStatement" level="INFO" />
 <!-- 	<logger name="request"  additivity="false"  level="INFO"><appender-ref ref="REQUEST_FILE"/></logger> -->
 	
- 	<logger name="ch.qos.logback.classic.joran.action.ConfigurationAction"
-		level="OFF" />
-	<!--</springProfile> -->
-
-
-	<!--&lt;!&ndash; 生产环境. &ndash;&gt; -->
-	<!--<springProfile name="prod"> -->
-	<!--<logger name="org.springframework.web" level="ERROR"/> -->
-	<!--<logger name="org.springboot.sample" level="ERROR" /> -->
-	<!--<logger name="com.kfit" level="ERROR" /> -->
-	<!--</springProfile> -->
-
+ 	<logger name="ch.qos.logback.classic.joran.action.ConfigurationAction" level="OFF" />
+	<logger name="org.springframework.aop.aspectj" level="ERROR"/>
+	<logger name="javax.activation" level="WARN"/>
+	<logger name="javax.mail" level="WARN"/>
+	<logger name="javax.xml.bind" level="WARN"/>
+	<logger name="ch.qos.logback" level="INFO"/>
+	<logger name="com.codahale.metrics" level="WARN"/>
+	<logger name="com.ryantenney" level="WARN"/>
+	<logger name="com.sun" level="WARN"/>
+	<logger name="com.zaxxer" level="WARN"/>
+	<logger name="io.undertow" level="WARN"/>
+	<logger name="net.sf.ehcache" level="WARN"/>
+	<logger name="org.apache" level="WARN"/>
+	<logger name="org.apache.catalina.startup.DigesterFactory" level="OFF"/>
+	<logger name="org.bson" level="WARN"/>
+	<logger name="org.hibernate.validator" level="WARN"/>
+	<logger name="org.hibernate" level="WARN"/>
+	<logger name="org.hibernate.ejb.HibernatePersistence" level="OFF"/>
+	<logger name="org.springframework.web" level="INFO"/>
+	<logger name="org.springframework.security" level="WARN"/>
+	<logger name="org.springframework.cache" level="WARN"/>
+	<logger name="org.thymeleaf" level="WARN"/>
+	<logger name="org.xnio" level="WARN"/>
+	<logger name="springfox" level="WARN"/>
+	<logger name="sun.rmi" level="WARN"/>
+	<logger name="liquibase" level="WARN"/>
+	<logger name="sun.rmi.transport" level="WARN"/>
+	<logger name="jdbc.connection" level="ERROR"/>
+	<logger name="jdbc.resultset" level="ERROR"/>
+	<logger name="jdbc.resultsettable" level="INFO"/>
+	<logger name="jdbc.audit" level="ERROR"/>
+	<logger name="jdbc.sqltiming" level="ERROR"/>
+	<logger name="jdbc.sqlonly" level="INFO"/>
 
 </configuration>
 

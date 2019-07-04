@@ -52,13 +52,13 @@ public class OrderDetail   implements Serializable {
     private BigDecimal price;
 
     //商品id
-    @Column(name = "produceId",columnDefinition=("decimal(17,2)  COMMENT '订单总金额'"))
-    @ApiModelProperty(value = "订单总金额")
+    @Column(name = "produceId",columnDefinition=("decimal(17,2)  COMMENT '商品id'"))
+    @ApiModelProperty(value = "商品id")
     private Long produceId;
 
     //商品名称
-    @Column(name = "productName",columnDefinition=("varchar(225)  COMMENT '产品名称'"))
-    @ApiModelProperty(value = "产品名称")
+    @Column(name = "productName",columnDefinition=("varchar(225)  COMMENT '商品名称'"))
+    @ApiModelProperty(value = "商品名称")
     @JsonIgnore
     private String productName;
 

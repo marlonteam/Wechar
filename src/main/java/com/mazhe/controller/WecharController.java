@@ -227,7 +227,7 @@ public class WecharController {
 
     //用户昨日订单查询
     @ApiOperation(value="用户昨日订单查询", notes="用户昨日订单查询")
-    @GetMapping(value = "order/queryestdate/user}")
+    @GetMapping(value = "order/queryestdate/user")
     @CheckToken
     public Object orderQueryYestdate(HttpServletRequest request ) {
         log.info("find all productType - start");

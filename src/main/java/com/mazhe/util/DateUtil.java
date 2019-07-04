@@ -212,6 +212,19 @@
 		String dateString = formatter.format(currentTime);
 		return dateString;
 	}
+
+	 /**
+	  * 获取当前时间字符串 (格式：yyyy-MM-dd HH:mm:ss)
+	  * @return
+	  */
+	 public static String getCurrentDate2() {
+		 SimpleDateFormat formatter = new SimpleDateFormat(
+				 "yyyyMMddHHmmss");
+		 Date currentTime = new Date();
+		 String dateString = formatter.format(currentTime);
+		 return dateString;
+	 }
+
 	public static String getCurrentDateSDF() {
 		SimpleDateFormat formatter = new SimpleDateFormat(
 				"yyyy-MM-dd");

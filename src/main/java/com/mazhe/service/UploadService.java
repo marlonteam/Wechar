@@ -1,6 +1,7 @@
 package com.mazhe.service;
 
 import com.mazhe.util.DateUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -12,6 +13,7 @@ import java.io.FileOutputStream;
  * Created by Administrator on 2019/5/19.
  */
 @Service
+@Slf4j
 public class UploadService {
 
     /***
@@ -28,11 +30,14 @@ public class UploadService {
             // 文件保存路径
             String filePath = path; //映射的地址
             //String filePath = request.getSession().getServletContext().getRealPath("upload/");本地项目路径
+            log.info("保存url{}",path);
             String filename = file.getOriginalFilename();//获取file图片名称
+            log.info("filename{}",filename);
             return uploadFile(file.getBytes(), filePath, filename);
            // return true;
 
         } catch (Exception e) {
+            log.info("错误{}",e.getMessage());
             e.printStackTrace();
         }
         return null;
@@ -43,7 +48,8 @@ public class UploadService {
         if(!targetFile.exists()){
             targetFile.mkdirs();
         }
-        String path= filePath+ DateUtil.getCurrentDate()+"_"+fileName;
+        String path= filePath+ DateUtil.getCurrentDate2()+"_"+fileName;
+        log.info("文件{}",path);
         FileOutputStream out = new FileOutputStream(path);
         out.write(file);
         out.flush();
