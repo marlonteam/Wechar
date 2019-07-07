@@ -213,7 +213,12 @@ public class HttpsUntils  {
         BufferedReader in = null;
         log.info("url:{}",url);
         try {
-            String urlNameString = url + "?" + param;
+            SSLContext sc = SSLContext.getInstance("SSL");
+            // 指定信任https
+            sc.init(null, new TrustManager[] { new TrustAnyTrustManager() }, new java.security.SecureRandom());
+            //创建代理虽然是https也是Type.HTTP
+
+            String urlNameString = url ;
             URL realUrl = new URL(urlNameString);
             // 打开和URL之间的连接
             URLConnection connection = realUrl.openConnection();
@@ -222,8 +227,15 @@ public class HttpsUntils  {
             connection.setRequestProperty("connection", "Keep-Alive");
             connection.setRequestProperty("user-agent",
                     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
+
+            // 设置连接主机服务器超时时间：30000毫秒
+            connection.setConnectTimeout(60000);
+            // 设置读取主机服务器返回数据超时时间：60000毫秒
+            connection.setReadTimeout(60000);
             // 建立实际的连接
             connection.connect();
+
+
             // 获取所有响应头字段
             Map<String, List<String>> map = connection.getHeaderFields();
             // 遍历所有的响应头字段

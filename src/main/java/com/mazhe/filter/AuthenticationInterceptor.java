@@ -9,11 +9,13 @@ import com.mazhe.service.ManageService;
 import com.mazhe.token.CheckToken;
 import com.mazhe.token.JwtUtil;
 import com.mazhe.token.LoginToken;
+import com.mazhe.util.JsonUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
@@ -27,6 +29,10 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object object) throws Exception {
 
+        BaseMessage baseMessage=new BaseMessage();
+        baseMessage.setCode("500");
+        httpServletResponse.setContentType("application/json");
+        ServletOutputStream outputStream= httpServletResponse.getOutputStream();
         // 从 http 请求头中取出 token
         String token = httpServletRequest.getHeader("token");
         // 如果不是映射到方法直接通过
@@ -50,23 +56,42 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
             if (checkToken.required()) {
                 // 执行认证
                 if (token == null) {
-
-                    throw new RuntimeException("无token，请重新登录");
+                    baseMessage.setMessage("无token，请重新登录");
+                    outputStream.write(JsonUtilities.toJSon(baseMessage).getBytes("UTF-8"));
+                    outputStream.flush();
+                    outputStream.close();
+                    return false;
+//                    throw new RuntimeException("无token，请重新登录");
                 }
                 // 获取 token 中的 user id
                 String userId;
                 try {
                     userId = JWT.decode(token).getClaim("id").asString();
                 } catch (JWTDecodeException j) {
-                    throw new RuntimeException("访问异常！");
+                    baseMessage.setMessage("访问异常");
+                    outputStream.write(JsonUtilities.toJSon(baseMessage).getBytes("UTF-8"));
+                    outputStream.flush();
+                    outputStream.close();
+                    return false;
+//                    throw new RuntimeException("访问异常！");
                 }
                 Optional<User> user = userService.findOneByOpenId(userId);
                 if (!user.isPresent()) {
-                    throw new RuntimeException("用户不存在，请重新登录");
+                    baseMessage.setMessage("用户不存在，请重新登录");
+                    outputStream.write(JsonUtilities.toJSon(baseMessage).getBytes("UTF-8"));
+                    outputStream.flush();
+                    outputStream.close();
+                    return false;
+//                    throw new RuntimeException("用户不存在，请重新登录");
                 }
                 Boolean verify = JwtUtil.isVerify(token);
                 if (!verify) {
-                    throw new RuntimeException("非法访问！");
+                    baseMessage.setMessage("非法访问");
+                    outputStream.write("非法访问".getBytes("UTF-8"));
+                    outputStream.flush();
+                    outputStream.close();
+                    return false;
+//                    throw new RuntimeException("非法访问！");
                 }
                 return true;
             }
