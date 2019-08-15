@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,6 +53,16 @@ public class WecharController {
 
     @Autowired
     private ManageService manageService;
+
+
+    //jwt 登录token验证
+    @ApiOperation(value="jwt 登录token验证", notes="jwt 登录token验证")
+    @GetMapping(value = "/get/token")
+    @LoginToken
+    public Object gettoken(HttpServletRequest request, HttpServletResponse response) {
+
+        return new ResponseEntity<>(manageService.getToken(response), HttpStatus.OK);
+    }
 
 
     @ApiOperation(value="获取所有商品（produce）明细", notes="获取所有商品（produce）明细")
@@ -116,7 +127,7 @@ public class WecharController {
     @ApiOperation(value="微信登陆获取openid", notes="微信登陆获取openid")
     @GetMapping(value = "/wechar/login")
     @LoginToken
-    public Object wecharlogin(@RequestParam(name = "code", required = false, defaultValue = "") String code) {
+    public Object wecharlogin(@RequestParam(name = "code", required = false, defaultValue = "") String code,HttpServletResponse response) {
         log.info("微信code:{}", code);
         Map map = new HashMap();
         //登录凭证不能为空
@@ -160,7 +171,7 @@ public class WecharController {
         //获取会话密钥（errmsg）
         if(StringUtils.isNotBlank(openid)){
             //保存用户openId到数据库
-            BaseMessage user=manageService.userAdd(openid);
+            BaseMessage user=manageService.userAdd(openid,response);
             return new ResponseEntity<>( BaseMessage.Success(user), HttpStatus.OK);
         }
         else{

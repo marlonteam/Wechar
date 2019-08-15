@@ -16,6 +16,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
@@ -35,6 +36,17 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         ServletOutputStream outputStream= httpServletResponse.getOutputStream();
         // 从 http 请求头中取出 token
         String token = httpServletRequest.getHeader("token");
+        Cookie[] cooks=httpServletRequest.getCookies();
+
+        if(cooks != null){
+            for(Cookie cook: cooks){
+                if(cook.getName().equals("token")){
+                    token=cook.getValue();
+                    break;
+                }
+            }
+        }
+
         // 如果不是映射到方法直接通过
         if (!(object instanceof HandlerMethod)) {
             return true;

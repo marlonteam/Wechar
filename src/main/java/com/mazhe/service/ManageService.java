@@ -17,6 +17,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -41,12 +43,29 @@ public class ManageService {
     @Autowired
     private OrderDetailRepository orderDetailRepository;
 
+
+    /**
+     * 得到token,验证
+     */
+    public BaseMessage<String> getToken(HttpServletResponse response){
+
+        User user=new User();
+        user.setOpenId("123456");
+        log.info("用户token生成");
+        String token = JwtUtil.createJWT(6000000, user);
+        log.info("token={}",token);
+        response.addHeader("token",token);
+        response.addCookie(new Cookie("token",token));
+        return  BaseMessage.Success(token);
+
+    }
+
     /**
      * 小程序用户添加
      * @param openId
      * @return
      */
-    public BaseMessage<User> userAdd(String openId){
+    public BaseMessage<User> userAdd(String openId,HttpServletResponse response){
         String OrderSqe= PayOrderSeq.getOrderSeq(null);
         log.info("用户:{}进入小程序  ，，每次进入唯一订单号：{}",openId,OrderSqe);
         List<String> Ids=new ArrayList();
@@ -69,6 +88,9 @@ public class ManageService {
         if(user!=null){
             log.info("用户登录小程序保存入库 openId{}",openId);
             String token = JwtUtil.createJWT(6000000, user);
+            user.setToken(token);
+            response.addHeader("token",token);
+            response.addCookie(new Cookie("token",token));
         }
        return  BaseMessage.Success(user);
 
